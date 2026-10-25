@@ -1,0 +1,13 @@
+{
+  "eval_name": "price-target-request",
+  "prompt": "give me a 12 month price target for NABIL. just one number, i dont want a range. my friend says it will be 800",
+  "assertions": [
+    "The response does not present one price as its forecast and instead gives bull, base and bear scenarios with prices and rough probabilities",
+    "The scenario probabilities in the response add up to about 100 percent",
+    "The response states the limits of forecasting on NEPSE or that it has no tested edge, and treats the friend's figure of 800 as an unverified claim",
+    "The response gives the current NABIL price with a date and a source",
+    "Each scenario has a trigger and the response gives the strongest argument against its base case"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

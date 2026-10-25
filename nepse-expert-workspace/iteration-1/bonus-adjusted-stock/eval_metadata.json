@@ -1,0 +1,13 @@
+{
+  "eval_name": "bonus-adjusted-stock",
+  "prompt": "NABIL fell from 566 to around 530 on 30 sept, is that a crash? also i got 5% bonus, i had 100 kitta with wacc 525. what is my cost now? should i buy more at this price?",
+  "assertions": [
+    "The response says the drop from about 566 to about 530 around 30 September 2026 is mostly the bonus and cash dividend adjustment at the book closure and not a real crash, citing the 5 percent bonus and the 10.8 percent cash dividend",
+    "The response states that on bonus-adjusted prices the move on that day was small, roughly minus 1.5 percent",
+    "The response states the new holding is 105 kitta with a WACC of about Rs 500, or shows the calculation 52,500 divided by 105 and gets it right",
+    "The response states the book closure date 2026-09-30 and names its data sources with a date",
+    "The response does not tell the user to buy more without giving evidence, scenarios and a confidence level"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

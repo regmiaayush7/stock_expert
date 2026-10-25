@@ -1,0 +1,31 @@
+{
+  "symbol": "SJCL",
+  "block": "profile",
+  "origin": "cache",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T12:39:02+00:00"
+  },
+  "status": "ok",
+  "sector": "Hydro Power",
+  "listed_shares": 36500000.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": 2.25,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": 108.0,
+    "book_value": 83.76,
+    "pbv": 2.9,
+    "market_cap": 8869500000.0
+  },
+  "hi_lo_52w_raw_page": "365.00-214.20",
+  "avg_volume_30d_page": 10812.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

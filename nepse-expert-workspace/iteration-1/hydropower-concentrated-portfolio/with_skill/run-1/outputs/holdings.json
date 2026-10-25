@@ -1,0 +1,7 @@
+{"cash": 25000, "holdings": [
+ {"symbol":"NHPC","sector":"Hydro Power","kitta":2000,"wacc":210,"ltp":259.7,"ltp_source":"verified","adv_shares":168156,"purchase_date":"2025-10-23"},
+ {"symbol":"UPPER","sector":"Hydro Power","kitta":1500,"wacc":240,"ltp":193.0,"ltp_source":"verified","adv_shares":85906,"purchase_date":"2025-10-23"},
+ {"symbol":"CHCL","sector":"Hydro Power","kitta":500,"wacc":300,"ltp":336.7,"ltp_source":"verified","adv_shares":74544,"purchase_date":"2025-10-23"},
+ {"symbol":"AKJCL","sector":"Hydro Power","kitta":1000,"wacc":330,"ltp":346.0,"ltp_source":"verified","adv_shares":229134,"purchase_date":"2025-10-23"},
+ {"symbol":"NABIL","sector":"Commercial Banks","kitta":300,"wacc":520,"ltp":547.0,"ltp_source":"verified","adv_shares":59515,"purchase_date":"2025-10-23"},
+ {"symbol":"NICA","sector":"Commercial Banks","kitta":200,"wacc":350,"ltp":320.9,"ltp_source":"verified","adv_shares":56918,"purchase_date":"2025-10-23"}]}

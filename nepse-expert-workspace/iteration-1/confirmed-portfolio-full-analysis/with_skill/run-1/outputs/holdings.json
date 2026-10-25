@@ -1,0 +1,8 @@
+{"cash": 40000,
+ "holdings": [
+  {"symbol":"NABIL","sector":"Commercial Banks","kitta":100,"wacc":500,"ltp":547.0,"ltp_source":"verified","adv_shares":59515,"purchase_date":"2025-01-14"},
+  {"symbol":"NICA","sector":"Commercial Banks","kitta":200,"wacc":350,"ltp":320.9,"ltp_source":"verified","adv_shares":56918,"purchase_date":"2023-06-20"},
+  {"symbol":"NHPC","sector":"Hydro Power","kitta":1000,"wacc":200,"ltp":259.7,"ltp_source":"verified","adv_shares":168156,"purchase_date":"2024-05-10"},
+  {"symbol":"UPPER","sector":"Hydro Power","kitta":400,"wacc":250,"ltp":193.0,"ltp_source":"verified","adv_shares":85906,"purchase_date":"2025-11-03"},
+  {"symbol":"SHL","sector":"Hotels And Tourism","kitta":50,"wacc":400,"ltp":520.0,"ltp_source":"verified","adv_shares":32372,"purchase_date":"2026-02-10"}
+ ]}

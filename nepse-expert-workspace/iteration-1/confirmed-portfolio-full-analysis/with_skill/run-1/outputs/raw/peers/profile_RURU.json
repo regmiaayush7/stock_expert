@@ -1,0 +1,31 @@
+{
+  "symbol": "RURU",
+  "block": "profile",
+  "origin": "cache",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T12:39:06+00:00"
+  },
+  "status": "ok",
+  "sector": "Hydro Power",
+  "listed_shares": 6240545.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": 10.4,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": 59.04,
+    "book_value": 128.84,
+    "pbv": 4.77,
+    "market_cap": 3831694163.36
+  },
+  "hi_lo_52w_raw_page": "830.00-560.10",
+  "avg_volume_30d_page": 4911.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

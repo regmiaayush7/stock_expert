@@ -1,0 +1,13 @@
+{
+  "eval_name": "locked-circuit-stock",
+  "prompt": "I own 5000 kitta of a small hydro stock, wacc 180. its been on lower circuit for 3 days and nobody is buying. whats the circuit limit now? how do i get out?",
+  "assertions": [
+    "The response states the daily price limit for a single stock is 15 percent since April 2026, or says it must be verified, and does not state 10 percent as the current limit",
+    "The response gives a practical exit approach such as limit sell orders at the locked price to join the queue, staggered sizes and watching volume, and does not promise the stock can be sold",
+    "The response warns against averaging down or panic selling without a reason",
+    "The response asks for the symbol, or uses live data to check how thin the stock is, before suggesting a size",
+    "The response explains that exit time depends on the order queue and average daily volume and gives a way to estimate days to exit"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

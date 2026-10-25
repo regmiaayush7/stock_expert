@@ -1,0 +1,253 @@
+{
+  "symbol": "NGPL",
+  "status": "ok",
+  "price": {
+    "symbol": "NGPL",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:47:00+00:00",
+      "npt": "2026-10-24T22:32:00+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 398.0,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 398.0
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 398
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 398.0
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 92045,
+      "adv_turnover_npr_approx": 36931856,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 2298,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "NGPL",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:47:00+00:00"
+    },
+    "status": "ok",
+    "sector": "Hydro Power",
+    "listed_shares": 38784300.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 1.27,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 313.39,
+      "book_value": 138.35,
+      "pbv": 2.88,
+      "market_cap": 15436151280.6
+    },
+    "hi_lo_52w_raw_page": "502.00-343.00",
+    "avg_volume_30d_page": 84219.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "NGPL",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:47:01+00:00"
+    },
+    "status": "ok",
+    "dividends": [
+      {
+        "year": "2081/2082",
+        "bonus_share": "4.75",
+        "cash_dividend": "0.25",
+        "announcement_date": "2025-11-19",
+        "bookclose_date": "2025-11-30",
+        "closed": true
+      },
+      {
+        "year": "2078/2079",
+        "bonus_share": "4.75",
+        "cash_dividend": "0.25",
+        "announcement_date": "2023-02-13",
+        "bookclose_date": "2023-02-22",
+        "closed": true
+      },
+      {
+        "year": "2077/2078",
+        "bonus_share": "20.00",
+        "cash_dividend": "1.05",
+        "announcement_date": "2021-08-15",
+        "bookclose_date": "2021-09-03",
+        "closed": true
+      },
+      {
+        "year": "2076/2077",
+        "bonus_share": "10.00",
+        "cash_dividend": "0.526",
+        "announcement_date": "2020-12-22",
+        "bookclose_date": "2020-12-30",
+        "closed": true
+      },
+      {
+        "year": "2075/2076",
+        "bonus_share": "0.00",
+        "cash_dividend": "10.00",
+        "announcement_date": "2020-06-24",
+        "bookclose_date": "2020-02-27",
+        "closed": true
+      },
+      {
+        "year": "2074/2075",
+        "bonus_share": "0.00",
+        "cash_dividend": "10.00",
+        "announcement_date": "2018-08-19",
+        "bookclose_date": "2018-08-30",
+        "closed": true
+      },
+      {
+        "year": "2073/2074",
+        "bonus_share": "10.00",
+        "cash_dividend": "0.53",
+        "announcement_date": null,
+        "bookclose_date": "2017-09-07",
+        "closed": true
+      },
+      {
+        "year": "2072/2073",
+        "bonus_share": "0.00",
+        "cash_dividend": "5.00",
+        "announcement_date": null,
+        "bookclose_date": "2016-10-27",
+        "closed": true
+      }
+    ],
+    "rights": [
+      {
+        "ratio_value": "1:1",
+        "total_units": "18512792.23",
+        "issue_price": "100.00",
+        "opening_date": "2025-01-07",
+        "closing_date": "2025-02-11",
+        "final_date": "2024-12-03",
+        "listing_date": "2025-04-01",
+        "issue_manager": "Siddhartha Capital Limited",
+        "announcement_link": "https://www.sharesansar.com/announcementdetail/ngadi-group-power-limited-has-published-an-offer-letter-to-issue-a-11-ratio-18512792225-units-right-share-to-its-shareholders-from-23rd-poush-to-14th-magh-2081-2024-12-20"
+      },
+      {
+        "ratio_value": "1:1.5",
+        "total_units": "10603986.00",
+        "issue_price": "100.00",
+        "opening_date": "2022-08-03",
+        "closing_date": "2022-08-23",
+        "final_date": "2022-07-04",
+        "listing_date": "2022-11-11",
+        "issue_manager": "Siddhartha Capital Ltd",
+        "announcement_link": "https://www.sharesansar.com/announcementdetail/ngadi-group-power-limited-has-published-an-offer-letter-to-issue-a-1-15-ratio-10603986-units-right-share-to-its-shareholders-from-18th-shrawan-to-7th-bhadra-2079-2022-07-17"
+      }
+    ],
+    "agm": [
+      {
+        "agm": "12th AGM",
+        "bookclose_date": "2025-11-30",
+        "meeting_date": "2025-12-11"
+      },
+      {
+        "agm": "11th AGM",
+        "bookclose_date": "2024-09-16",
+        "meeting_date": "2024-09-29"
+      },
+      {
+        "agm": "10th AGM",
+        "bookclose_date": "2023-12-28",
+        "meeting_date": "2024-01-10"
+      },
+      {
+        "agm": "SGM",
+        "bookclose_date": "2023-07-20",
+        "meeting_date": "2023-07-30"
+      },
+      {
+        "agm": "9th",
+        "bookclose_date": "2023-02-22",
+        "meeting_date": "2023-03-09"
+      },
+      {
+        "agm": "8th AGM",
+        "bookclose_date": "2021-09-03",
+        "meeting_date": "2021-09-19"
+      },
+      {
+        "agm": "7th",
+        "bookclose_date": "2020-12-30",
+        "meeting_date": "2021-01-12"
+      },
+      {
+        "agm": "6th",
+        "bookclose_date": "2020-02-27",
+        "meeting_date": "2020-06-24"
+      },
+      {
+        "agm": "5th",
+        "bookclose_date": "2018-08-30",
+        "meeting_date": "2018-09-20"
+      },
+      {
+        "agm": "4th",
+        "bookclose_date": "2017-09-07",
+        "meeting_date": "2017-09-20"
+      },
+      {
+        "agm": "3rd",
+        "bookclose_date": "2016-10-27",
+        "meeting_date": "2016-11-14"
+      },
+      {
+        "agm": "2nd",
+        "bookclose_date": null,
+        "meeting_date": "2015-08-28"
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

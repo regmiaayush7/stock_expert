@@ -1,0 +1,145 @@
+{
+  "as_of": "2026-10-24",
+  "limits_used": {
+    "single_stock_max_pct": 20.0,
+    "sector_max_pct": 40.0,
+    "cash_min_pct": 5.0,
+    "max_share_of_adv": 0.1,
+    "exit_days_warn": 5,
+    "exit_days_severe": 20,
+    "liquid_within_days": 5
+  },
+  "totals": {
+    "invested_value": 1551530.0,
+    "cash": 25000.0,
+    "total_value": 1576530.0,
+    "cost": 1486000.0,
+    "gross_pl": 65530.0,
+    "net_pl_if_all_sold_today": 54811.71,
+    "costs_and_tax_drag": 10718.29,
+    "cash_pct": 1.59,
+    "top1_pct": 32.95,
+    "top3_pct": 73.26,
+    "liquid_within_5_days_pct_of_invested": 100.0,
+    "note": "net result sums holdings one by one; loss relief across holdings is not assumed (see tax-and-costs.md)"
+  },
+  "sectors_pct_of_total": {
+    "Hydro Power": 83.93,
+    "Commercial Banks": 14.48
+  },
+  "holdings": [
+    {
+      "symbol": "NHPC",
+      "sector": "Hydro Power",
+      "kitta": 2000,
+      "wacc": 210.0,
+      "ltp": 259.7,
+      "ltp_source": "verified",
+      "value": 519400.0,
+      "cost": 420000.0,
+      "gross_pl": 99400.0,
+      "net_pl": 93959.45,
+      "net_proceeds": 513959.45,
+      "term": "long",
+      "days_to_exit": 0.12,
+      "flags": [
+        "concentration: 32.9% of the portfolio (limit 20%)"
+      ],
+      "weight_pct": 32.95
+    },
+    {
+      "symbol": "UPPER",
+      "sector": "Hydro Power",
+      "kitta": 1500,
+      "wacc": 240.0,
+      "ltp": 193.0,
+      "ltp_source": "verified",
+      "value": 289500.0,
+      "cost": 360000.0,
+      "gross_pl": -70500.0,
+      "net_pl": -71523.78,
+      "net_proceeds": 288476.22,
+      "term": "long",
+      "days_to_exit": 0.17,
+      "flags": [],
+      "weight_pct": 18.36
+    },
+    {
+      "symbol": "CHCL",
+      "sector": "Hydro Power",
+      "kitta": 500,
+      "wacc": 300.0,
+      "ltp": 336.7,
+      "ltp_source": "verified",
+      "value": 168350.0,
+      "cost": 150000.0,
+      "gross_pl": 18350.0,
+      "net_pl": 17056.06,
+      "net_proceeds": 167056.06,
+      "term": "long",
+      "days_to_exit": 0.07,
+      "flags": [],
+      "weight_pct": 10.68
+    },
+    {
+      "symbol": "AKJCL",
+      "sector": "Hydro Power",
+      "kitta": 1000,
+      "wacc": 330.0,
+      "ltp": 346.0,
+      "ltp_source": "verified",
+      "value": 346000.0,
+      "cost": 330000.0,
+      "gross_pl": 16000.0,
+      "net_pl": 14181.3,
+      "net_proceeds": 344181.3,
+      "term": "long",
+      "days_to_exit": 0.04,
+      "flags": [
+        "concentration: 21.9% of the portfolio (limit 20%)"
+      ],
+      "weight_pct": 21.95
+    },
+    {
+      "symbol": "NABIL",
+      "sector": "Commercial Banks",
+      "kitta": 300,
+      "wacc": 520.0,
+      "ltp": 547.0,
+      "ltp_source": "verified",
+      "value": 164100.0,
+      "cost": 156000.0,
+      "gross_pl": 8100.0,
+      "net_pl": 7205.1,
+      "net_proceeds": 163205.1,
+      "term": "long",
+      "days_to_exit": 0.05,
+      "flags": [],
+      "weight_pct": 10.41
+    },
+    {
+      "symbol": "NICA",
+      "sector": "Commercial Banks",
+      "kitta": 200,
+      "wacc": 350.0,
+      "ltp": 320.9,
+      "ltp_source": "verified",
+      "value": 64180.0,
+      "cost": 70000.0,
+      "gross_pl": -5820.0,
+      "net_pl": -6066.42,
+      "net_proceeds": 63933.58,
+      "term": "long",
+      "days_to_exit": 0.04,
+      "flags": [],
+      "weight_pct": 4.07
+    }
+  ],
+  "warnings": [
+    "sector concentration: Hydro Power is 83.9% of the portfolio (limit 40%)",
+    "cash is 1.6% of the portfolio (floor 5%): no room to buy or to meet an emergency without selling",
+    "NHPC: concentration: 32.9% of the portfolio (limit 20%)",
+    "AKJCL: concentration: 21.9% of the portfolio (limit 20%)"
+  ],
+  "table_markdown": "| Symbol | Sector | Kitta | WACC | LTP | Value | Weight | Gross P/L | Net P/L after costs and tax | Days to exit |\n|---|---|---|---|---|---|---|---|---|---|\n| NHPC | Hydro Power | 2,000 | 210.00 | 259.70 | 519,400 | 33.0% | 99,400 | 93,959 | 0.1 |\n| UPPER | Hydro Power | 1,500 | 240.00 | 193.00 | 289,500 | 18.4% | -70,500 | -71,524 | 0.2 |\n| CHCL | Hydro Power | 500 | 300.00 | 336.70 | 168,350 | 10.7% | 18,350 | 17,056 | 0.1 |\n| AKJCL | Hydro Power | 1,000 | 330.00 | 346.00 | 346,000 | 21.9% | 16,000 | 14,181 | 0.0 |\n| NABIL | Commercial Banks | 300 | 520.00 | 547.00 | 164,100 | 10.4% | 8,100 | 7,205 | 0.1 |\n| NICA | Commercial Banks | 200 | 350.00 | 320.90 | 64,180 | 4.1% | -5,820 | -6,066 | 0.0 |"
+}

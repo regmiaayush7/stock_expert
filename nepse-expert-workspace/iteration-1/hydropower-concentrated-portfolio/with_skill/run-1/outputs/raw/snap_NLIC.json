@@ -1,0 +1,285 @@
+{
+  "symbol": "NLIC",
+  "status": "ok",
+  "price": {
+    "symbol": "NLIC",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:49:15+00:00",
+      "npt": "2026-10-24T22:34:15+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 743.0,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 743.0
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 743
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 743.0
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 19467,
+      "adv_turnover_npr_approx": 14178047,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 2314,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "NLIC",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:49:15+00:00"
+    },
+    "status": "ok",
+    "sector": "Life Insurance",
+    "listed_shares": 94802015.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 3.64,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 204.12,
+      "book_value": 126.07,
+      "pbv": 5.89,
+      "market_cap": 70437896179.1
+    },
+    "hi_lo_52w_raw_page": "872.00-680.50",
+    "avg_volume_30d_page": 20818.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "NLIC",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:49:16+00:00"
+    },
+    "status": "ok",
+    "dividends": [
+      {
+        "year": "2081/2082",
+        "bonus_share": "5.00",
+        "cash_dividend": "16.05",
+        "announcement_date": "2025-12-11",
+        "bookclose_date": "2025-12-22",
+        "closed": true
+      },
+      {
+        "year": "2080/2081",
+        "bonus_share": "10.00",
+        "cash_dividend": "11.05",
+        "announcement_date": "2025-01-12",
+        "bookclose_date": "2025-01-23",
+        "closed": true
+      },
+      {
+        "year": "2079/2080",
+        "bonus_share": "",
+        "cash_dividend": "21.05",
+        "announcement_date": "2024-06-02",
+        "bookclose_date": "2024-06-18",
+        "closed": true
+      },
+      {
+        "year": "2077/2078",
+        "bonus_share": "0.00",
+        "cash_dividend": "15.7895",
+        "announcement_date": "2022-09-16",
+        "bookclose_date": "2022-11-04",
+        "closed": true
+      },
+      {
+        "year": "2076/2077",
+        "bonus_share": "14.00",
+        "cash_dividend": "0.7368",
+        "announcement_date": "2022-02-06",
+        "bookclose_date": "2022-03-21",
+        "closed": true
+      },
+      {
+        "year": "2075/2076",
+        "bonus_share": "31.00",
+        "cash_dividend": "20.00",
+        "announcement_date": "2020-12-22",
+        "bookclose_date": "2021-01-27",
+        "closed": true
+      },
+      {
+        "year": "2074/2075",
+        "bonus_share": "25.00",
+        "cash_dividend": "23.5",
+        "announcement_date": "2019-04-28",
+        "bookclose_date": "2019-05-02",
+        "closed": true
+      },
+      {
+        "year": "2073/2074",
+        "bonus_share": "42.00",
+        "cash_dividend": "28.5",
+        "announcement_date": null,
+        "bookclose_date": "2018-03-28",
+        "closed": true
+      },
+      {
+        "year": "2072/2073",
+        "bonus_share": "25.00",
+        "cash_dividend": "1.31",
+        "announcement_date": null,
+        "bookclose_date": "2017-03-10",
+        "closed": true
+      },
+      {
+        "year": "2071/2072",
+        "bonus_share": "25.00",
+        "cash_dividend": "1.31",
+        "announcement_date": null,
+        "bookclose_date": "2016-04-28",
+        "closed": true
+      },
+      {
+        "year": "2070/2071",
+        "bonus_share": "60.00",
+        "cash_dividend": "8.00",
+        "announcement_date": null,
+        "bookclose_date": "2015-05-26",
+        "closed": true
+      },
+      {
+        "year": "2069/2070",
+        "bonus_share": "70.00",
+        "cash_dividend": "28.5",
+        "announcement_date": null,
+        "bookclose_date": "2014-05-04",
+        "closed": true
+      },
+      {
+        "year": "2068/2069",
+        "bonus_share": "70.00",
+        "cash_dividend": "56.31",
+        "announcement_date": null,
+        "bookclose_date": "2013-04-18",
+        "closed": true
+      }
+    ],
+    "rights": [],
+    "agm": [
+      {
+        "agm": "26th AGM",
+        "bookclose_date": "2025-12-22",
+        "meeting_date": "2026-01-03"
+      },
+      {
+        "agm": "25th AGM",
+        "bookclose_date": "2025-01-23",
+        "meeting_date": "2025-02-10"
+      },
+      {
+        "agm": "23rd &amp; 24th AGM",
+        "bookclose_date": "2024-06-18",
+        "meeting_date": "2024-07-02"
+      },
+      {
+        "agm": "22nd AGM",
+        "bookclose_date": "2022-11-04",
+        "meeting_date": "2022-11-24"
+      },
+      {
+        "agm": "21st AGM",
+        "bookclose_date": "2022-03-21",
+        "meeting_date": "2022-04-04"
+      },
+      {
+        "agm": "20th",
+        "bookclose_date": "2021-01-27",
+        "meeting_date": "2021-02-10"
+      },
+      {
+        "agm": "19th",
+        "bookclose_date": "2019-05-02",
+        "meeting_date": "2019-05-18"
+      },
+      {
+        "agm": "18th",
+        "bookclose_date": "2018-03-28",
+        "meeting_date": "2018-04-11"
+      },
+      {
+        "agm": "17th",
+        "bookclose_date": "2017-03-10",
+        "meeting_date": "2017-03-27"
+      },
+      {
+        "agm": "16th",
+        "bookclose_date": "2016-04-28",
+        "meeting_date": "2016-05-20"
+      },
+      {
+        "agm": "15th",
+        "bookclose_date": "2015-05-26",
+        "meeting_date": "2015-06-15"
+      },
+      {
+        "agm": "14th",
+        "bookclose_date": "2014-05-04",
+        "meeting_date": "2014-05-17"
+      },
+      {
+        "agm": "13th",
+        "bookclose_date": "2013-04-18",
+        "meeting_date": "2013-05-03"
+      },
+      {
+        "agm": "12th",
+        "bookclose_date": "2012-07-16",
+        "meeting_date": "2012-07-30"
+      },
+      {
+        "agm": "11th",
+        "bookclose_date": "2011-10-31",
+        "meeting_date": "2011-11-14"
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

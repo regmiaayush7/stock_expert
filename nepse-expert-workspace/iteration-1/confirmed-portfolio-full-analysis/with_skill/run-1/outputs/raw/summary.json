@@ -1,0 +1,125 @@
+{
+  "as_of": "2026-10-24",
+  "limits_used": {
+    "single_stock_max_pct": 20.0,
+    "sector_max_pct": 40.0,
+    "cash_min_pct": 5.0,
+    "max_share_of_adv": 0.1,
+    "exit_days_warn": 5,
+    "exit_days_severe": 20,
+    "liquid_within_days": 5
+  },
+  "totals": {
+    "invested_value": 481780.0,
+    "cash": 40000.0,
+    "total_value": 521780.0,
+    "cost": 440000.0,
+    "gross_pl": 41780.0,
+    "net_pl_if_all_sold_today": 37270.05,
+    "costs_and_tax_drag": 4509.95,
+    "cash_pct": 7.67,
+    "top1_pct": 49.77,
+    "top3_pct": 76.87,
+    "liquid_within_5_days_pct_of_invested": 100.0,
+    "note": "net result sums holdings one by one; loss relief across holdings is not assumed (see tax-and-costs.md)"
+  },
+  "sectors_pct_of_total": {
+    "Hydro Power": 64.57,
+    "Commercial Banks": 22.78,
+    "Hotels And Tourism": 4.98
+  },
+  "holdings": [
+    {
+      "symbol": "NABIL",
+      "sector": "Commercial Banks",
+      "kitta": 100,
+      "wacc": 500.0,
+      "ltp": 547.0,
+      "ltp_source": "verified",
+      "value": 54700.0,
+      "cost": 50000.0,
+      "gross_pl": 4700.0,
+      "net_pl": 4310.03,
+      "net_proceeds": 54310.03,
+      "term": "long",
+      "days_to_exit": 0.02,
+      "flags": [],
+      "weight_pct": 10.48
+    },
+    {
+      "symbol": "NICA",
+      "sector": "Commercial Banks",
+      "kitta": 200,
+      "wacc": 350.0,
+      "ltp": 320.9,
+      "ltp_source": "verified",
+      "value": 64180.0,
+      "cost": 70000.0,
+      "gross_pl": -5820.0,
+      "net_pl": -6066.42,
+      "net_proceeds": 63933.58,
+      "term": "long",
+      "days_to_exit": 0.04,
+      "flags": [],
+      "weight_pct": 12.3
+    },
+    {
+      "symbol": "NHPC",
+      "sector": "Hydro Power",
+      "kitta": 1000,
+      "wacc": 200.0,
+      "ltp": 259.7,
+      "ltp_source": "verified",
+      "value": 259700.0,
+      "cost": 200000.0,
+      "gross_pl": 59700.0,
+      "net_pl": 56540.28,
+      "net_proceeds": 256540.28,
+      "term": "long",
+      "days_to_exit": 0.06,
+      "flags": [
+        "concentration: 49.8% of the portfolio (limit 20%)"
+      ],
+      "weight_pct": 49.77
+    },
+    {
+      "symbol": "UPPER",
+      "sector": "Hydro Power",
+      "kitta": 400,
+      "wacc": 250.0,
+      "ltp": 193.0,
+      "ltp_source": "verified",
+      "value": 77200.0,
+      "cost": 100000.0,
+      "gross_pl": -22800.0,
+      "net_pl": -23091.34,
+      "net_proceeds": 76908.66,
+      "term": "short",
+      "days_to_exit": 0.05,
+      "flags": [],
+      "weight_pct": 14.8
+    },
+    {
+      "symbol": "SHL",
+      "sector": "Hotels And Tourism",
+      "kitta": 50,
+      "wacc": 400.0,
+      "ltp": 520.0,
+      "ltp_source": "verified",
+      "value": 26000.0,
+      "cost": 20000.0,
+      "gross_pl": 6000.0,
+      "net_pl": 5577.5,
+      "net_proceeds": 25577.5,
+      "term": "short",
+      "days_to_exit": 0.02,
+      "flags": [],
+      "weight_pct": 4.98
+    }
+  ],
+  "warnings": [
+    "sector concentration: Hydro Power is 64.6% of the portfolio (limit 40%)",
+    "NHPC: concentration: 49.8% of the portfolio (limit 20%)"
+  ],
+  "table_markdown": "| Symbol | Sector | Kitta | WACC | LTP | Value | Weight | Gross P/L | Net P/L after costs and tax | Days to exit |\n|---|---|---|---|---|---|---|---|---|---|\n| NABIL | Commercial Banks | 100 | 500.00 | 547.00 | 54,700 | 10.5% | 4,700 | 4,310 | 0.0 |\n| NICA | Commercial Banks | 200 | 350.00 | 320.90 | 64,180 | 12.3% | -5,820 | -6,066 | 0.0 |\n| NHPC | Hydro Power | 1,000 | 200.00 | 259.70 | 259,700 | 49.8% | 59,700 | 56,540 | 0.1 |\n| UPPER | Hydro Power | 400 | 250.00 | 193.00 | 77,200 | 14.8% | -22,800 | -23,091 | 0.1 |\n| SHL | Hotels And Tourism | 50 | 400.00 | 520.00 | 26,000 | 5.0% | 6,000 | 5,578 | 0.0 |"
+}

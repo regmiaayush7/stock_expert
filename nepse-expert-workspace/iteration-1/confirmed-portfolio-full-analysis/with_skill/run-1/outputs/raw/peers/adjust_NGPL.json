@@ -1,0 +1,155 @@
+{
+  "symbol": "NGPL",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2298,
+  "first": "2016-09-07",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2017-09-07",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2017-09-07"
+    },
+    {
+      "kind": "dividend",
+      "date": "2020-12-30",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2020-12-30"
+    },
+    {
+      "kind": "dividend",
+      "date": "2021-09-03",
+      "bonus_pct": 20.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2021-09-05"
+    },
+    {
+      "kind": "right",
+      "date": "2022-07-04",
+      "n": 1.0,
+      "m": 1.5,
+      "price": 100.0,
+      "ex_bar": "2022-07-04"
+    },
+    {
+      "kind": "dividend",
+      "date": "2023-02-22",
+      "bonus_pct": 4.75,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-02-22"
+    },
+    {
+      "kind": "right",
+      "date": "2024-12-03",
+      "n": 1.0,
+      "m": 1.0,
+      "price": 100.0,
+      "ex_bar": "2024-12-03"
+    },
+    {
+      "kind": "dividend",
+      "date": "2025-11-30",
+      "bonus_pct": 4.75,
+      "cash_rs": 0.0,
+      "ex_bar": "2025-11-30"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2298,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.84,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2296,
+      "agreement_pct": 100.0,
+      "max_err_pct": 3.73,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2017-09-07",
+      "raw_return_pct": -14.1,
+      "adjusted_return_pct": -1.7,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2020-12-30",
+      "raw_return_pct": -10.4,
+      "adjusted_return_pct": -0.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2021-09-05",
+      "raw_return_pct": -22.7,
+      "adjusted_return_pct": -4.8,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2022-07-04",
+      "raw_return_pct": -43.0,
+      "adjusted_return_pct": 7.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-02-22",
+      "raw_return_pct": 2.2,
+      "adjusted_return_pct": 5.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2024-12-03",
+      "raw_return_pct": -34.3,
+      "adjusted_return_pct": 8.7,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2025-11-30",
+      "raw_return_pct": -2.0,
+      "adjusted_return_pct": 2.7,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": -4.6,
+      "3m": -0.6,
+      "6m": -14.4,
+      "12m": 6.3
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2048,
+      "p10": -14.3,
+      "median": 7.9,
+      "p90": 83.1,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 502.0,
+      "low": 327.45,
+      "position_0_to_1": 0.404
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\confirmed-portfolio-full-analysis\\with_skill\\run-1\\outputs\\skill\\data\\cache\\adjusted_NGPL.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

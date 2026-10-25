@@ -1,0 +1,162 @@
+{
+  "symbol": "UPPER",
+  "status": "ok",
+  "price": {
+    "symbol": "UPPER",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:44:39+00:00",
+      "npt": "2026-10-24T22:29:39+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 193.0,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 193.0
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 193
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 193.0
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 85906,
+      "adv_turnover_npr_approx": 16507591,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 1772,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "UPPER",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:44:39+00:00"
+    },
+    "status": "ok",
+    "sector": "Hydro Power",
+    "listed_shares": 211800000.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 4.37,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 44.16,
+      "book_value": 44.48,
+      "pbv": 4.34,
+      "market_cap": 40877400000.0
+    },
+    "hi_lo_52w_raw_page": "242.60-170.50",
+    "avg_volume_30d_page": 84193.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "UPPER",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:44:40+00:00"
+    },
+    "status": "ok",
+    "dividends": [],
+    "rights": [
+      {
+        "ratio_value": "1: 1",
+        "total_units": "105900000.00",
+        "issue_price": "100.00",
+        "opening_date": "2023-09-04",
+        "closing_date": "2023-10-09",
+        "final_date": "2023-08-11",
+        "listing_date": "2024-03-10",
+        "issue_manager": "Sunrise Capital Limited",
+        "announcement_link": "https://www.sharesansar.com/announcementdetail/upper-tamakoshi-hydropower-limited-has-published-an-offer-letter-to-issue-a-11-ratio-105900000-units-right-share-to-its-shareholders-from-18th-bhadra-to-7th-ashwin-2080-2023-08-17"
+      }
+    ],
+    "agm": [
+      {
+        "agm": "16th and 17th AGM",
+        "bookclose_date": "2026-04-03",
+        "meeting_date": "2026-04-12"
+      },
+      {
+        "agm": "15th AGM",
+        "bookclose_date": "2023-08-11",
+        "meeting_date": "2023-08-23"
+      },
+      {
+        "agm": "14th AGM",
+        "bookclose_date": "2022-08-03",
+        "meeting_date": "2022-08-19"
+      },
+      {
+        "agm": "12th and 13th AGM",
+        "bookclose_date": "2021-09-20",
+        "meeting_date": "2021-10-05"
+      },
+      {
+        "agm": "11th",
+        "bookclose_date": "2019-06-04",
+        "meeting_date": "2019-07-16"
+      },
+      {
+        "agm": "10th",
+        "bookclose_date": "2018-05-13",
+        "meeting_date": "2018-05-28"
+      },
+      {
+        "agm": "9th",
+        "bookclose_date": "2017-05-07",
+        "meeting_date": "2017-05-17"
+      },
+      {
+        "agm": "8th",
+        "bookclose_date": null,
+        "meeting_date": "2016-09-02"
+      },
+      {
+        "agm": "7th",
+        "bookclose_date": null,
+        "meeting_date": "2015-08-09"
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

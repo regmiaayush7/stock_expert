@@ -1,0 +1,18 @@
+{
+  "eval_name": "confirmed-portfolio-full-analysis",
+  "prompt": "Confirmed, the table is right. NABIL 100 kitta wacc 500 bought 2025-01-14, NICA 200 wacc 350 bought 2023-06-20, NHPC 1000 wacc 200 bought 2024-05-10, UPPER 400 wacc 250 bought 2025-11-03, SHL 50 wacc 400 bought 2026-02-10. Cash is rs 40,000. Go ahead with the full analysis and tell me what to do first.",
+  "assertions": [
+    "The response has a verdict card for each of the five holdings with one of Accumulate, Hold, Trim, Exit, Avoid or Watch",
+    "Each holding card includes bull, base and bear scenarios with probabilities and the strongest argument against the verdict",
+    "The portfolio summary states a total value within 5 percent of Rs 521,780 including Rs 40,000 cash, or within 5 percent of Rs 481,780 invested, and weights that add to about 100 percent",
+    "The summary flags NHPC as a single-stock concentration of roughly half the portfolio and hydropower as a sector concentration",
+    "The response reports days to exit or another liquidity measure for the holdings",
+    "The response gives a net-of-tax result for selling each holding today and uses 3.75 percent for holdings held more than 365 days and 5 percent for those held 365 days or less",
+    "The response ends with a prioritised action list that gives sizes and reasons",
+    "The response includes a section on what could make the analysis wrong and lists data-quality warnings",
+    "No holding is given high confidence",
+    "One row per holding was appended to the scratch decision log named in the run instructions and nothing was appended to the skill's own evals/decision_log.csv"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

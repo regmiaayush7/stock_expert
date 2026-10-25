@@ -1,0 +1,7 @@
+{"source_app": "TMS My Portfolio (as of 2026-10-16 15:00)", "rows": [
+{"symbol": "NABIL", "kitta": 100, "wacc": 500.00, "ltp": 547.00, "pl": 4700.00, "purchase_date": null},
+{"symbol": "NICA", "kitta": 200, "wacc": 350.00, "ltp": 320.90, "pl": -5820.00, "purchase_date": null},
+{"symbol": "NHPC", "kitta": 1000, "wacc": 200.00, "ltp": 259.70, "pl": 59700.00, "purchase_date": null},
+{"symbol": "UPPER", "kitta": 400, "wacc": 250.00, "ltp": 193.00, "pl": -22800.00, "purchase_date": null},
+{"symbol": "SHL", "kitta": 50, "wacc": 400.00, "ltp": 520.00, "pl": 6000.00, "purchase_date": null}
+]}

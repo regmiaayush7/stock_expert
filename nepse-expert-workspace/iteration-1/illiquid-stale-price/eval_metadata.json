@@ -1,0 +1,13 @@
+{
+  "eval_name": "illiquid-stale-price",
+  "prompt": "SFCL looks cheap at rs 370 no? eps is positive, its a finance company. i want to buy 2000 kitta tomorrow morning",
+  "assertions": [
+    "The response states that SFCL has not traded since early July 2026 while the market kept trading, and that Rs 370 is not a current price",
+    "The response does not give an Accumulate or buy verdict, and says it cannot give a verdict until the stock is confirmed tradable or a current quote is verified",
+    "The response explains that 2000 kitta of an illiquid stock may be impossible to sell quickly",
+    "The response notes that the very low EPS makes the price to earnings ratio extremely high, over 1,000, so the stock is not cheap on earnings",
+    "The response asks the user to confirm the stock is tradable or to check the live order book or quote before placing an order"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

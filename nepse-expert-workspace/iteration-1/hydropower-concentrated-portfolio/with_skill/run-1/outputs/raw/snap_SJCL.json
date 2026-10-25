@@ -1,0 +1,165 @@
+{
+  "symbol": "SJCL",
+  "status": "ok",
+  "price": {
+    "symbol": "SJCL",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:46:59+00:00",
+      "npt": "2026-10-24T22:31:59+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 243.0,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 243.0
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 243
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 243.0
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 16296,
+      "adv_turnover_npr_approx": 3921451,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 1631,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "SJCL",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:46:59+00:00"
+    },
+    "status": "ok",
+    "sector": "Hydro Power",
+    "listed_shares": 36500000.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 2.25,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 108.0,
+      "book_value": 83.76,
+      "pbv": 2.9,
+      "market_cap": 8869500000.0
+    },
+    "hi_lo_52w_raw_page": "365.00-214.20",
+    "avg_volume_30d_page": 10812.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "SJCL",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:47:01+00:00"
+    },
+    "status": "ok",
+    "dividends": [],
+    "rights": [],
+    "agm": [
+      {
+        "agm": "13th, 14th and 15th AGM",
+        "bookclose_date": "2026-01-04",
+        "meeting_date": "2026-01-13"
+      },
+      {
+        "agm": "12th AGM",
+        "bookclose_date": "2024-01-04",
+        "meeting_date": "2024-01-14"
+      },
+      {
+        "agm": "11th AGM",
+        "bookclose_date": "2021-12-20",
+        "meeting_date": "2021-12-28"
+      },
+      {
+        "agm": "10th",
+        "bookclose_date": "2021-01-01",
+        "meeting_date": "2021-01-08"
+      },
+      {
+        "agm": "8th",
+        "bookclose_date": null,
+        "meeting_date": "2019-01-04"
+      },
+      {
+        "agm": "7th",
+        "bookclose_date": null,
+        "meeting_date": "2017-12-22"
+      },
+      {
+        "agm": "6th",
+        "bookclose_date": null,
+        "meeting_date": "2017-01-11"
+      },
+      {
+        "agm": "5th",
+        "bookclose_date": null,
+        "meeting_date": "2016-01-11"
+      },
+      {
+        "agm": "4th",
+        "bookclose_date": null,
+        "meeting_date": "2015-01-09"
+      },
+      {
+        "agm": "2nd",
+        "bookclose_date": null,
+        "meeting_date": "2012-10-13"
+      },
+      {
+        "agm": "1st",
+        "bookclose_date": null,
+        "meeting_date": "2012-01-13"
+      },
+      {
+        "agm": "13th AGM",
+        "bookclose_date": "2024-02-25",
+        "meeting_date": null
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

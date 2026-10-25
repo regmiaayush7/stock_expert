@@ -1,0 +1,14 @@
+{
+  "eval_name": "hydropower-concentrated-portfolio",
+  "prompt": "my portfolio is almost all hydro. NHPC 2000 kitta wacc 210, UPPER 1500 wacc 240, CHCL 500 wacc 300, AKJCL 1000 wacc 330, NABIL 300 wacc 520, NICA 200 wacc 350. cash rs 25,000. I bought everything more than a year ago. these numbers are confirmed, no need to ask me again. is this ok? i believe in hydro long term. what should i do?",
+  "assertions": [
+    "The response states the hydropower share of the portfolio as roughly 85 percent, between 80 and 90 percent of total value",
+    "The response flags hydropower concentration as a risk and recommends a limit or a reduction plan with a size in percent or rupees",
+    "The response names at least two hydropower-specific risks such as wet and dry season generation, spill, flood or landslide risk, power purchase agreement terms, payment delays from the electricity authority, or debt burden",
+    "The response uses prices that it fetched, stated with a date and source, rather than prices from memory",
+    "The response reports days to exit or another liquidity measure for at least the largest holdings",
+    "The response acknowledges the user's long-term view on hydropower without endorsing the concentration"
+  ],
+  "tag": "needs-v1",
+  "input_files": []
+}

@@ -1,0 +1,134 @@
+{
+  "symbol": "HDHPC",
+  "status": "ok",
+  "price": {
+    "symbol": "HDHPC",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:47:00+00:00",
+      "npt": "2026-10-24T22:32:00+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 220.5,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 220.5
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 220.5
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 220.5
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 284747,
+      "adv_turnover_npr_approx": 63204534,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 1482,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "HDHPC",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:47:00+00:00"
+    },
+    "status": "ok",
+    "sector": "Hydro Power",
+    "listed_shares": 28000000.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": -3.4,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": -64.85,
+      "book_value": 71.97,
+      "pbv": 3.06,
+      "market_cap": 6174000000.0
+    },
+    "hi_lo_52w_raw_page": "274.00-165.10",
+    "avg_volume_30d_page": 355404.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [
+      "negative EPS: P/E is not meaningful, do not use it for valuation"
+    ],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "HDHPC",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:47:01+00:00"
+    },
+    "status": "ok",
+    "dividends": [],
+    "rights": [
+      {
+        "ratio_value": "1: 0.75",
+        "total_units": "12000000.00",
+        "issue_price": "100.00",
+        "opening_date": "2023-06-05",
+        "closing_date": "2023-07-10",
+        "final_date": "2023-05-10",
+        "listing_date": "2023-09-07",
+        "issue_manager": "Laxmi Capital Market Limited",
+        "announcement_link": "https://www.sharesansar.com/announcementdetail/himal-dolakha-hydropower-company-limited-has-published-an-offer-letter-to-issue-a-1-075-ratio-12000000-units-right-share-to-its-shareholders-from-22nd-jestha-to-10th-ashar-2080-2023-05-19"
+      }
+    ],
+    "agm": [
+      {
+        "agm": "17th and 18th AGM",
+        "bookclose_date": "2026-06-04",
+        "meeting_date": "2026-07-10"
+      },
+      {
+        "agm": "15th &amp; 16th AGM",
+        "bookclose_date": "2024-03-31",
+        "meeting_date": "2024-06-10"
+      },
+      {
+        "agm": "13th and 14th AGM",
+        "bookclose_date": "2022-08-11",
+        "meeting_date": "2022-09-04"
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

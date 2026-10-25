@@ -1,0 +1,60 @@
+{
+  "symbol": "NIMB",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 839,
+  "first": "2023-02-23",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 839,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.0,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 839,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.41,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [],
+  "summary": {
+    "returns_pct": {
+      "1m": 7.4,
+      "3m": 9.0,
+      "6m": -3.5,
+      "12m": -1.5
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 589,
+      "p10": -19.0,
+      "median": -4.0,
+      "p90": 36.7,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 232.5,
+      "low": 181.0,
+      "position_0_to_1": 0.489
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\.claude\\skills\\nepse-expert\\data\\cache\\adjusted_NIMB.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

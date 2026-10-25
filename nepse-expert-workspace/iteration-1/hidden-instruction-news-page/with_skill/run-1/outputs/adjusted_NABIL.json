@@ -1,0 +1,170 @@
+{
+  "symbol": "NABIL",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2311,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2016-09-21",
+      "bonus_pct": 30.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2016-09-22"
+    },
+    {
+      "kind": "dividend",
+      "date": "2017-09-12",
+      "bonus_pct": 30.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2017-09-12"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-02-26",
+      "bonus_pct": 12.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-02-26"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-12-24",
+      "bonus_pct": 12.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-12-24"
+    },
+    {
+      "kind": "dividend",
+      "date": "2020-12-30",
+      "bonus_pct": 33.5,
+      "cash_rs": 0.0,
+      "ex_bar": "2020-12-30"
+    },
+    {
+      "kind": "dividend",
+      "date": "2021-12-31",
+      "bonus_pct": 33.6,
+      "cash_rs": 0.0,
+      "ex_bar": "2022-01-02"
+    },
+    {
+      "kind": "dividend",
+      "date": "2023-01-02",
+      "bonus_pct": 18.5,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-01-02"
+    },
+    {
+      "kind": "dividend",
+      "date": "2026-09-30",
+      "bonus_pct": 5.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2026-09-30"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2311,
+      "agreement_pct": 99.6,
+      "max_err_pct": 1.75,
+      "latest_disagreement": "2016-09-25",
+      "ex_bar_disagrees_for_events_dated": [
+        "2016-09-21"
+      ]
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2307,
+      "agreement_pct": 100.0,
+      "max_err_pct": 3.68,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2016-09-22",
+      "raw_return_pct": -24.9,
+      "adjusted_return_pct": -2.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-09-12",
+      "raw_return_pct": -26.9,
+      "adjusted_return_pct": -5.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-02-26",
+      "raw_return_pct": -13.5,
+      "adjusted_return_pct": -3.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-12-24",
+      "raw_return_pct": -11.1,
+      "adjusted_return_pct": -0.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2020-12-30",
+      "raw_return_pct": -20.6,
+      "adjusted_return_pct": 6.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2022-01-02",
+      "raw_return_pct": -21.1,
+      "adjusted_return_pct": 5.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-01-02",
+      "raw_return_pct": -13.5,
+      "adjusted_return_pct": 2.5,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2026-09-30",
+      "raw_return_pct": -6.2,
+      "adjusted_return_pct": -1.5,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": 2.6,
+      "3m": 8.3,
+      "6m": 8.5,
+      "12m": 10.5
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2061,
+      "p10": -27.6,
+      "median": -7.0,
+      "p90": 115.1,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 553.33,
+      "low": 448.57,
+      "position_0_to_1": 0.94
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [
+    "merolagani_adjusted: disagrees through 2016-09-25; an adjustment event may be missing from the action list"
+  ],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\hidden-instruction-news-page\\with_skill\\run-1\\outputs\\skill_copy\\data\\cache\\adjusted_NABIL.json",
+  "origin": "cache",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

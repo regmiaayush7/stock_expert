@@ -1,0 +1,75 @@
+{
+  "symbol": "TRH",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2235,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2023-12-28",
+      "bonus_pct": 4.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-12-28"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2235,
+      "agreement_pct": 100.0,
+      "max_err_pct": 6.45,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2233,
+      "agreement_pct": 100.0,
+      "max_err_pct": 6.45,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2023-12-28",
+      "raw_return_pct": 5.7,
+      "adjusted_return_pct": 10.0,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": 1.7,
+      "3m": 6.6,
+      "6m": 9.5,
+      "12m": -12.4
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 1985,
+      "p10": -22.8,
+      "median": 13.4,
+      "p90": 89.4,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 944.9,
+      "low": 681.1,
+      "position_0_to_1": 0.545
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\confirmed-portfolio-full-analysis\\with_skill\\run-1\\outputs\\skill\\data\\cache\\adjusted_TRH.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

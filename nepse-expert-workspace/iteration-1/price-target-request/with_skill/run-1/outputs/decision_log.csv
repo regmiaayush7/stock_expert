@@ -1,0 +1,2 @@
+date_ad,symbol,verdict,confidence,horizon,review_date,resolution_rule,probability,reference_price,data_timestamp,data_status,outcome
+2026-10-24,NABIL,Watch,low,12 months,2027-10-25,the adjusted low within the horizon is at or below 0.95 x reference price,0.8,547.0,2026-10-24T22:29:24+05:45,ok,

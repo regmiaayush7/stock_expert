@@ -1,0 +1,2 @@
+date_ad,symbol,verdict,confidence,horizon,review_date,resolution_rule,probability,reference_price,data_timestamp,data_status,outcome
+2026-10-24,NHPC,Trim,low,12 months,2027-10-24,adjusted close at the review date plus cash dividends received is below reference price x (1 + 0.08) ^ 1,0.75,259.7,2026-10-24T22:37:39+05:45,ok,

@@ -1,0 +1,31 @@
+{
+  "symbol": "AKJCL",
+  "block": "profile",
+  "origin": "cache",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T12:47:02+00:00"
+  },
+  "status": "ok",
+  "sector": "Hydro Power",
+  "listed_shares": 20000000.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": 3.18,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": 108.81,
+    "book_value": 93.69,
+    "pbv": 3.69,
+    "market_cap": 6920000000.0
+  },
+  "hi_lo_52w_raw_page": "461.40-179.00",
+  "avg_volume_30d_page": 229088.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

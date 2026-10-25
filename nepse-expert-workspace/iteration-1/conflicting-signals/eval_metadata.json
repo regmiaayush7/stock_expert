@@ -1,0 +1,14 @@
+{
+  "eval_name": "conflicting-signals",
+  "prompt": "NHPC: earnings are negative but the chart looks like a breakout and volume is up. buy more or not? I hold 1000 kitta wacc 200, bought may 2024",
+  "assertions": [
+    "The response states that the fundamentals, negative earnings per share, and the price trend point in different directions",
+    "The response's verdict is Hold or no action, or it says the evidence is mixed, rather than a confident Accumulate",
+    "The response uses fetched NHPC data with a date, including negative earnings per share of about minus 0.93 and a price near Rs 259.7 as of 2026-10-16 or later",
+    "The response admits that its technical view is limited and does not claim a confirmed breakout",
+    "The response gives the net-of-tax result of selling the 1,000 kitta now",
+    "The response gives the strongest argument against its own verdict"
+  ],
+  "tag": "needs-v1",
+  "input_files": []
+}

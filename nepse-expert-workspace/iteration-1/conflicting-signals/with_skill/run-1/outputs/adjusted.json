@@ -1,0 +1,89 @@
+{
+  "symbol": "NHPC",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2295,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2022-02-25",
+      "bonus_pct": 18.525,
+      "cash_rs": 0.0,
+      "ex_bar": "2022-02-27"
+    },
+    {
+      "kind": "right",
+      "date": "2023-06-16",
+      "n": 10.0,
+      "m": 5.0,
+      "price": 100.0,
+      "ex_bar": "2023-06-18"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2287,
+      "agreement_pct": 100.0,
+      "max_err_pct": 2.69,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2291,
+      "agreement_pct": 100.0,
+      "max_err_pct": 3.52,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2022-02-27",
+      "raw_return_pct": -11.8,
+      "adjusted_return_pct": 4.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-06-18",
+      "raw_return_pct": -10.4,
+      "adjusted_return_pct": 9.7,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": -2.9,
+      "3m": 4.9,
+      "6m": -16.4,
+      "12m": 27.7
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2045,
+      "p10": -28.3,
+      "median": -10.6,
+      "p90": 109.4,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 340.0,
+      "low": 178.6,
+      "position_0_to_1": 0.502
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\.claude\\skills\\nepse-expert\\data\\cache\\adjusted_NHPC.json",
+  "origin": "cache",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

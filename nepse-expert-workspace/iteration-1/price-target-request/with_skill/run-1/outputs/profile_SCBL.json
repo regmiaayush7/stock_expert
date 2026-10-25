@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "error": "merolagani: company page had no price table (unknown symbol or layout change)",
+  "fallback": "No data returned. Do not estimate. Ask the user to paste the quote or a TMS/NepseAlpha export, and give no verdict until it is verified."
+}

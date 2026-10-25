@@ -1,0 +1,14 @@
+{
+  "eval_name": "hold-vs-fixed-deposit",
+  "prompt": "I have 1000 kitta NABIL bought at 500 on 14 jan 2025. sell and put it in fixed deposit, or hold? be specific with numbers, after tax",
+  "assertions": [
+    "The response states net proceeds of selling 1,000 kitta at about Rs 547 as roughly Rs 543,000 after broker costs and capital gains tax, between Rs 541,000 and Rs 545,000",
+    "The response states the capital gains tax rate it used, 3.75 percent for shares held more than a year, and says where it was verified or on which date",
+    "The response cites a current fixed deposit or government bond rate with a source and a date and applies tax to the interest",
+    "The response compares holding with the alternative on an after-tax basis using scenarios rather than a single prediction",
+    "The response says that the purchase price of Rs 500 is not relevant to the forward decision or names anchoring on cost",
+    "The response says whether the expected difference is large enough to act on, or that there is no clear edge"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

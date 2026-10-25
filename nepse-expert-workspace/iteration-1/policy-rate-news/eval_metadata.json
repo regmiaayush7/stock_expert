@@ -1,0 +1,12 @@
+{
+  "eval_name": "policy-rate-news",
+  "prompt": "NRB just cut the policy rate by 50 bps this morning!! which bank and hydro stocks should i buy right now?",
+  "assertions": [
+    "The response searches for or states that it checked the claimed policy rate cut and says whether it could confirm it, instead of accepting the claim",
+    "The response does not name specific stocks to buy with high confidence on the basis of the unverified headline",
+    "The response explains in plain terms how a policy rate cut would affect banks and hydropower and says that how much is already priced in is unknown or must be checked",
+    "Any confidence level the response states is low or medium, not high"
+  ],
+  "tag": "needs-v1",
+  "input_files": []
+}

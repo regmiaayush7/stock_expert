@@ -1,0 +1,196 @@
+{
+  "symbol": "CHCL",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2312,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2016-12-23",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2016-12-26"
+    },
+    {
+      "kind": "dividend",
+      "date": "2017-10-23",
+      "bonus_pct": 15.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2017-10-23"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-01-03",
+      "bonus_pct": 20.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-01-03"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-11-13",
+      "bonus_pct": 20.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-11-13"
+    },
+    {
+      "kind": "dividend",
+      "date": "2020-12-14",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2020-12-14"
+    },
+    {
+      "kind": "dividend",
+      "date": "2021-12-30",
+      "bonus_pct": 7.5,
+      "cash_rs": 0.0,
+      "ex_bar": "2022-01-02"
+    },
+    {
+      "kind": "dividend",
+      "date": "2022-12-18",
+      "bonus_pct": 7.5,
+      "cash_rs": 0.0,
+      "ex_bar": "2022-12-18"
+    },
+    {
+      "kind": "dividend",
+      "date": "2023-12-24",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-12-24"
+    },
+    {
+      "kind": "dividend",
+      "date": "2024-12-31",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2024-12-31"
+    },
+    {
+      "kind": "dividend",
+      "date": "2026-01-01",
+      "bonus_pct": 8.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2026-01-01"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2312,
+      "agreement_pct": 97.1,
+      "max_err_pct": 5.05,
+      "latest_disagreement": "2016-12-27",
+      "ex_bar_disagrees_for_events_dated": [
+        "2016-12-23"
+      ]
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2309,
+      "agreement_pct": 100.0,
+      "max_err_pct": 2.18,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2016-12-26",
+      "raw_return_pct": -12.2,
+      "adjusted_return_pct": -3.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-10-23",
+      "raw_return_pct": -13.2,
+      "adjusted_return_pct": -0.2,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-01-03",
+      "raw_return_pct": -17.8,
+      "adjusted_return_pct": -1.3,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-11-13",
+      "raw_return_pct": -17.3,
+      "adjusted_return_pct": -0.8,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2020-12-14",
+      "raw_return_pct": -11.0,
+      "adjusted_return_pct": -2.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2022-01-02",
+      "raw_return_pct": -5.2,
+      "adjusted_return_pct": 2.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2022-12-18",
+      "raw_return_pct": -8.8,
+      "adjusted_return_pct": -2.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-12-24",
+      "raw_return_pct": -10.3,
+      "adjusted_return_pct": -1.3,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2024-12-31",
+      "raw_return_pct": -11.4,
+      "adjusted_return_pct": -2.6,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2026-01-01",
+      "raw_return_pct": -7.1,
+      "adjusted_return_pct": 0.4,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": -6.5,
+      "3m": -29.5,
+      "6m": -31.7,
+      "12m": -27.9
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2062,
+      "p10": -28.6,
+      "median": 3.8,
+      "p90": 55.5,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 525.0,
+      "low": 320.4,
+      "position_0_to_1": 0.08
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [
+    "merolagani_adjusted: disagrees through 2016-12-27; an adjustment event may be missing from the action list"
+  ],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\confirmed-portfolio-full-analysis\\with_skill\\run-1\\outputs\\skill\\data\\cache\\adjusted_CHCL.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "symbol": "SJCL",
+  "block": "adjusted_prices",
+  "status": "unverified",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 1631,
+  "first": "2019-08-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 1631,
+      "agreement_pct": 100.0,
+      "max_err_pct": 1.89,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 1629,
+      "agreement_pct": 90.5,
+      "max_err_pct": 7.06,
+      "latest_disagreement": "2020-07-01",
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [],
+  "summary": {
+    "returns_pct": {
+      "1m": -1.5,
+      "3m": -8.6,
+      "6m": -23.6,
+      "12m": -18.5
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 1381,
+      "p10": -34.4,
+      "median": 6.3,
+      "p90": 99.0,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 365.0,
+      "low": 214.2,
+      "position_0_to_1": 0.191
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [
+    "nepsealpha_adjusted: disagrees through 2020-07-01; an adjustment event may be missing from the action list"
+  ],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\confirmed-portfolio-full-analysis\\with_skill\\run-1\\outputs\\skill\\data\\cache\\adjusted_SJCL.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

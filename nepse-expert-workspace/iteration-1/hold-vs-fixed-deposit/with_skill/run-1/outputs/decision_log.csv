@@ -1,0 +1,2 @@
+date_ad,symbol,verdict,confidence,horizon,review_date,resolution_rule,probability,reference_price,data_timestamp,data_status,outcome
+2026-10-24,NABIL,Hold,low,12 months,2027-10-25,adjusted close at the review date plus cash dividends received is at least reference price x (1 + hurdle) ^ years,0.35,547.0,2026-10-24T22:38:00+05:45,ok,

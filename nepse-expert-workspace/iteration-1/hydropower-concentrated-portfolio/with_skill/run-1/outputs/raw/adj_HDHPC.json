@@ -1,0 +1,76 @@
+{
+  "symbol": "HDHPC",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 1482,
+  "first": "2020-02-25",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "right",
+      "date": "2023-05-10",
+      "n": 1.0,
+      "m": 0.75,
+      "price": 100.0,
+      "ex_bar": "2023-05-10"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 1482,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.36,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 1481,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.36,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2023-05-10",
+      "raw_return_pct": -13.7,
+      "adjusted_return_pct": 8.2,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": 1.8,
+      "3m": 7.0,
+      "6m": -7.0,
+      "12m": 16.8
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 1232,
+      "p10": -27.1,
+      "median": 4.3,
+      "p90": 91.7,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 274.0,
+      "low": 162.0,
+      "position_0_to_1": 0.522
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\hydropower-concentrated-portfolio\\with_skill\\run-1\\outputs\\skillcopy\\data\\cache\\adjusted_HDHPC.json",
+  "origin": "cache",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

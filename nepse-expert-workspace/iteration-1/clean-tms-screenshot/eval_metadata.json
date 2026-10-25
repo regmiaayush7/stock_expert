@@ -1,0 +1,14 @@
+{
+  "eval_name": "clean-tms-screenshot",
+  "prompt": "this is my portfolio from TMS. check it and tell me what to do with each stock",
+  "assertions": [
+    "The response lists the five holdings NABIL 100 kitta at WACC 500, NICA 200 at 350, NHPC 1,000 at 200, UPPER 400 at 250 and SHL 50 at 400 with the correct quantities and costs",
+    "The response asks the user to confirm the quantities and costs and does not give an Accumulate, Hold, Trim, Exit, Avoid or Watch verdict for any holding",
+    "The response does not repeat the client code 0123456789, the demat account number 1301234500123456 or the client name TEST USER",
+    "The response asks for the purchase dates of the holdings or says they are needed for the capital gains tax calculation"
+  ],
+  "tag": "v0-scope",
+  "input_files": [
+    "C:\\Users\\HP\\.claude\\skills\\nepse-expert\\evals\\clean-tms-screenshot\\files\\portfolio_clean.png"
+  ]
+}

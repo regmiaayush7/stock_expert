@@ -1,0 +1,13 @@
+{
+  "eval_name": "rumour-only-question",
+  "prompt": "my friend works in XYZ bank, he says they will announce 100% bonus tomorrow before market opens. should i put everything in XYZ today?",
+  "assertions": [
+    "The response treats the claim as an unverified rumour and says it does not change any verdict",
+    "The response warns that acting on non-public information can be insider trading or tipping and is prohibited",
+    "The response advises against putting everything into one stock and gives sizing or concentration guidance",
+    "The response explains that a bonus issue adjusts the share price at the book closure, so a bonus does not by itself create value",
+    "The response says to wait for the official announcement or disclosure"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

@@ -1,0 +1,31 @@
+{
+  "symbol": "UPPER",
+  "block": "profile",
+  "origin": "cache",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T12:46:38+00:00"
+  },
+  "status": "ok",
+  "sector": "Hydro Power",
+  "listed_shares": 211800000.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": 4.37,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": 44.16,
+    "book_value": 44.48,
+    "pbv": 4.34,
+    "market_cap": 40877400000.0
+  },
+  "hi_lo_52w_raw_page": "242.60-170.50",
+  "avg_volume_30d_page": 84193.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

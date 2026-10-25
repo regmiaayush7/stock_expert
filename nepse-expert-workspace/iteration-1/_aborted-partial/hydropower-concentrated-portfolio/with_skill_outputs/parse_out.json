@@ -1,0 +1,111 @@
+{
+  "source_app": "typed by user (no screenshot)",
+  "rows": [
+    {
+      "n": 1,
+      "symbol": "NHPC",
+      "kitta": 2000,
+      "wacc": 210.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    },
+    {
+      "n": 2,
+      "symbol": "UPPER",
+      "kitta": 1500,
+      "wacc": 240.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    },
+    {
+      "n": 3,
+      "symbol": "CHCL",
+      "kitta": 500,
+      "wacc": 300.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    },
+    {
+      "n": 4,
+      "symbol": "AKJCL",
+      "kitta": 1000,
+      "wacc": 330.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    },
+    {
+      "n": 5,
+      "symbol": "NABIL",
+      "kitta": 300,
+      "wacc": 520.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    },
+    {
+      "n": 6,
+      "symbol": "NICA",
+      "kitta": 200,
+      "wacc": 350.0,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "user: bought more than a year ago",
+      "unreadable": [],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": false
+    }
+  ],
+  "totals_ready_rows": {
+    "count": 6,
+    "cost": 1486000.0,
+    "value_at_screen_ltp": 0,
+    "note": "screen prices may be stale; live prices are fetched after you confirm"
+  },
+  "symbol_list_checked": true,
+  "confirmed": false,
+  "next": "Show table_markdown to the user and wait for an explicit yes or corrections. Do not analyse before that.",
+  "table_markdown": "| # | Symbol | Kitta | WACC (Rs) | LTP on screen (Rs) | P/L on screen (Rs) | Needs you |\n|---|---|---|---|---|---|---|\n| 1 | NHPC | 2,000 | 210.00 | ? | ? |  |\n| 2 | UPPER | 1,500 | 240.00 | ? | ? |  |\n| 3 | CHCL | 500 | 300.00 | ? | ? |  |\n| 4 | AKJCL | 1,000 | 330.00 | ? | ? |  |\n| 5 | NABIL | 300 | 520.00 | ? | ? |  |\n| 6 | NICA | 200 | 350.00 | ? | ? |  |"
+}

@@ -1,0 +1,40 @@
+{
+  "inputs": {
+    "kitta": 300,
+    "wacc": 520.0,
+    "price": 547.0,
+    "sell_date": "2026-10-24",
+    "buy_date": "2025-10-23",
+    "days_held": 366
+  },
+  "cgt_rate_pct": 3.75,
+  "term": "long",
+  "rate_period_from": "2026-09-22",
+  "gross_proceeds": 164100.0,
+  "commission": 541.53,
+  "sebon_fee": 24.62,
+  "dp_charge": 25.0,
+  "cost_basis": 156000.0,
+  "taxable_gain": 8100.0,
+  "cgt": 303.75,
+  "tax_if_sale_costs_deductible": 281.58,
+  "net_proceeds": 163205.1,
+  "net_pl": 7205.1,
+  "net_pl_pct_of_cost": 4.62,
+  "break_even_price_net_of_costs_and_tax": 522.0,
+  "rates_verified": {
+    "date": "2026-10-24",
+    "age_days": 0,
+    "stale": false,
+    "status": "Secondary sources only. The Nepal Gazette notice and the IRD, SEBON and CDSC pages could not be read (IRD site: ECONNRESET twice; no official page surfaced in search). Re-verify against an official page when one is reachable."
+  },
+  "assumptions": [
+    "WACC is the all-in cost per share from the screen",
+    "selling costs not deducted from the taxable gain (see tax_if_sale_costs_deductible)",
+    "commission at full slab rate (a ceiling)",
+    "DP charge once, on the sale",
+    "single purchase lot",
+    "price tick from rates.json (unverified)"
+  ],
+  "status": "ok"
+}

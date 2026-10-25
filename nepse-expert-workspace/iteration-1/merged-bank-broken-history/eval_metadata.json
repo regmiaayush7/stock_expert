@@ -1,0 +1,13 @@
+{
+  "eval_name": "merged-bank-broken-history",
+  "prompt": "GBIME 5 year chart looks weird before 2020, i heard banks merged. what was the 5 year return? can i trust the data?",
+  "assertions": [
+    "The response says the adjusted price data for GBIME had a source disagreement or is marked unverified for part of the history and does not present a 5-year return as clean fact",
+    "The response explains that unadjusted prices show false drops at bonus or right share dates and that a merger can break a price series",
+    "The response says that predecessor and merged bank history is not chained in this version or that the merger events were not verified, so the early history should be treated with caution",
+    "The response either gives a 5-year return on adjusted prices with the caveat and sources, or declines to give one and says what is missing",
+    "The response does not give a Buy or Sell verdict that rests on the unverified part of the data"
+  ],
+  "tag": "v0-scope",
+  "input_files": []
+}

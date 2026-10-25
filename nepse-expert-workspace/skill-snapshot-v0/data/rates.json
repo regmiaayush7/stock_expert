@@ -1,0 +1,51 @@
+{
+  "last_verified": "2026-10-24",
+  "max_age_days": 30,
+  "verification_status": "Secondary sources only. The Nepal Gazette notice and the IRD, SEBON and CDSC pages could not be read (IRD site: ECONNRESET twice; no official page surfaced in search). Re-verify against an official page when one is reachable.",
+
+  "cgt_resident_individual_listed_securities": {
+    "applies_to": "resident natural person selling SEBON-listed securities; withheld at settlement; institutions pay 10 percent",
+    "long_term_means": "held more than 365 days (exactly 365 days is short term)",
+    "periods": [
+      {"from": "0001-01-01", "long_pct": 5.0, "short_pct": 7.5,
+       "note": "FY 2082/83 and earlier. Older years may differ; check before using for past sales.",
+       "sources": ["nepsequant.com/guides/cgt-final-tax-fy-2083-84", "kharchapatra.com/blog/capital-gains-tax-shares-nepal"]},
+      {"from": "2026-07-17", "long_pct": 7.5, "short_pct": 10.0,
+       "note": "Finance Act 2083, from Shrawan 1, 2083.",
+       "sources": ["nepsequant.com/guides/cgt-final-tax-fy-2083-84", "kharchapatra.com/blog/capital-gains-tax-shares-nepal", "reliancecs.co/nepal-budget-2083-84-simplified"]},
+      {"from": "2026-09-22", "long_pct": 3.75, "short_pct": 5.0,
+       "note": "Cabinet decision of 31 Bhadra 2083 (16 Sep 2026), published in the Nepal Gazette on Asoj 5 or 6, 2083. Sources split between 21 and 22 September 2026; 22 September is used. Legal basis cited: section 18(1) of the Economic (Finance) Act 2083. Nepalpress and Annapurna TV printed 3.5 percent for long term: treated as a typo.",
+       "sources": ["sharesansar.com/newsdetail/capital-gains-tax-rates-reduced-decision-published-in-gazette-2026-09-22", "kathmandupost.com/money/2026/09/15/government-rolls-out-sweeping-capital-market-reform-plan", "kharchapatra.com/blog/capital-gains-tax-shares-nepal (revised 2026-10-20)", "nexusadvisory.com.np/tools/share-tax-calculator", "onlinekhabar.com/2026/09/2017147", "bajarkochirfar.com/notice-of-capital-gains-tax-reduction-published-in-the-gazette"]}
+    ],
+    "open_points": [
+      "Whether the rate follows the trade date or the settlement date is not stated by the news reports (one advisory site says settlement date).",
+      "Loss set-off against other gains was promised in the 21-point plan; one source says it was not in force on 2026-10-20.",
+      "Cost basis of bonus shares: one source says zero, one says Rs 100 par. The recorded WACC (MeroShare, kept by CDSC) is what counts; use the user's screen figure.",
+      "Whether selling costs reduce the taxable gain is not stated. costs.py taxes the gross gain and reports the tax if costs were deductible.",
+      "One advisory site says gains above Rs 40 lakh a year need a return and tax clearance. Single source."
+    ]
+  },
+
+  "dividend_tax_resident_pct": {"value": 5.0, "note": "Cash dividend: 5 percent final withholding by the company. Bonus shares: not taxed to the holder at issue; one source says the company pays 5 percent on the bonus.", "sources": ["kharchapatra.com/blog/capital-gains-tax-shares-nepal", "vidhica.com/blogs/nepal-income-tax-guide"]},
+
+  "broker_commission": {
+    "basis": "Applies to the whole trade value, not in bands. Slab edges: up to and including the limit.",
+    "slabs": [
+      {"up_to": 50000, "pct": 0.36},
+      {"up_to": 500000, "pct": 0.33},
+      {"up_to": 2000000, "pct": 0.31},
+      {"up_to": 10000000, "pct": 0.27},
+      {"up_to": null, "pct": 0.24}
+    ],
+    "minimum_npr": 10,
+    "note": "In force since Jestha 2081 (about 14 May 2024) after a 10 percent cut. Unrounded SEBON figures are 0.306 and 0.243 for the third and fifth slabs; brokers quote 0.31 and 0.24. One source says SEBON has treated the slabs as ceilings since 2025, so a broker may charge less. IPO, FPO and right shares taken directly from the issue carry no commission, SEBON fee or DP charge.",
+    "sources": ["kharchapatra.com/blog/nepse-share-trading-costs-nepal", "nexusadvisory.com.np/tools/share-tax-calculator", "sharesansar.com news 2024-05-14 (via kharchapatra)"]
+  },
+
+  "sebon_fee_pct": {"value": 0.015, "sides": "buy and sell", "sources": ["kharchapatra.com/blog/nepse-share-trading-costs-nepal", "nexusadvisory.com.np/tools/share-tax-calculator"]},
+
+  "dp_charge_npr": {"value": 25, "unit": "per scrip per settlement", "sides_assumed": "sell leg counted once here; buy leg is inside the user's WACC",
+                    "note": "Sources disagree on whether it is charged on both legs. Rs 25 either way.", "sources": ["kharchapatra.com/blog/nepse-share-trading-costs-nepal", "nexusadvisory.com.np/tools/share-tax-calculator"]},
+
+  "price_tick_npr": {"value": 0.1, "note": "Assumed from memory, not verified in this session. Used only to round break-even prices. Verify live."}
+}

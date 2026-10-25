@@ -1,0 +1,121 @@
+{
+  "symbol": "NIMB",
+  "status": "ok",
+  "price": {
+    "symbol": "NIMB",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T16:47:17+00:00",
+      "npt": "2026-10-24T22:32:17+05:45",
+      "bs": "2083-07-07",
+      "note": "data from cache, fetched 2026-10-24T16:46:09+00:00"
+    },
+    "origin": "cache",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 206.2,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 206.2
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 206.2
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 206.2
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 155806,
+      "adv_turnover_npr_approx": 30468926,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 839,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "NIMB",
+    "block": "profile",
+    "origin": "cache",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:44:57+00:00"
+    },
+    "status": "ok",
+    "sector": "Commercial Banks",
+    "listed_shares": 341285949.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 8.05,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 25.61,
+      "book_value": 197.71,
+      "pbv": 1.04,
+      "market_cap": 70373162890.0
+    },
+    "hi_lo_52w_raw_page": "232.50-181.00",
+    "avg_volume_30d_page": 180998.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "NIMB",
+    "block": "actions",
+    "origin": "cache",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T16:46:12+00:00"
+    },
+    "status": "ok",
+    "dividends": [],
+    "rights": [],
+    "agm": [
+      {
+        "agm": "39th AGM",
+        "bookclose_date": "2026-01-02",
+        "meeting_date": "2026-01-14"
+      },
+      {
+        "agm": "38th AGM",
+        "bookclose_date": "2025-02-11",
+        "meeting_date": "2025-02-27"
+      },
+      {
+        "agm": "37th AGM",
+        "bookclose_date": "2024-03-07",
+        "meeting_date": "2024-04-02"
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

@@ -1,0 +1,33 @@
+{
+  "symbol": "TRH",
+  "block": "profile",
+  "origin": "live",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T16:56:33+00:00"
+  },
+  "status": "ok",
+  "sector": "Hotels And Tourism",
+  "listed_shares": 19621202.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": -35.97,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": -22.93,
+    "book_value": 118.71,
+    "pbv": 6.95,
+    "market_cap": 16185529199.84
+  },
+  "hi_lo_52w_raw_page": "853.90-681.10",
+  "avg_volume_30d_page": 4382.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [
+    "negative EPS: P/E is not meaningful, do not use it for valuation"
+  ],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

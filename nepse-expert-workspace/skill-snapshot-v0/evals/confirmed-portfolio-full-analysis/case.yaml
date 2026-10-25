@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: confirmed-portfolio-full-analysis
+expected_outcome: |
+  One verdict card per holding with scenarios and the case against, a portfolio summary with correct totals and weights, concentration and days-to-exit flags, net-of-tax results using the right rates by holding period, a prioritised action list, a what-could-make-this-wrong section, no high confidence, and one row per holding in the scratch decision log.
+  Failure: Missing cards; wrong totals; verdict on unverified data; real decision log polluted.

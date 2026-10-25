@@ -1,0 +1,31 @@
+{
+  "symbol": "NIMB",
+  "block": "profile",
+  "origin": "live",
+  "fetched_at": {
+    "epoch_utc": "2026-10-24T16:44:57+00:00"
+  },
+  "status": "ok",
+  "sector": "Commercial Banks",
+  "listed_shares": 341285949.0,
+  "paid_up_per_share": 100.0,
+  "valuation": {
+    "eps": 8.05,
+    "eps_period": "FY:082-083, Q:4",
+    "pe": 25.61,
+    "book_value": 197.71,
+    "pbv": 1.04,
+    "market_cap": 70373162890.0
+  },
+  "hi_lo_52w_raw_page": "232.50-181.00",
+  "avg_volume_30d_page": 180998.0,
+  "gaps": [
+    "promoter vs public split not fetched in v0",
+    "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+  ],
+  "notes": [],
+  "sources": [
+    "merolagani.com CompanyDetail",
+    "sharesansar.com company page"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "eval_name": "ipo-question",
+  "prompt": "a new hydro IPO is opening next week, 10 lakh units at rs 100. i will apply for the max, 1000 kitta. is it a good idea? how likely am i to get allotted? will it list at rs 300?",
+  "assertions": [
+    "The response does not state a specific allotment probability or a number of kitta likely to be allotted as fact",
+    "The response does not promise or predict a listing price such as Rs 300 as a certainty and says listing-day behaviour has no tested base rate",
+    "The response asks for the issuer name or prospectus or searches for them, and lists what it would check, for example promoter quality, project stage, price against listed peers, use of proceeds and rating",
+    "The response tells the user that a dedicated primary-market analysis is not available in this version, or it limits its confidence to low or medium"
+  ],
+  "tag": "needs-v2",
+  "input_files": []
+}

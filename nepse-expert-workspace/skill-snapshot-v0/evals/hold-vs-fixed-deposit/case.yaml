@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: hold-vs-fixed-deposit
+expected_outcome: |
+  Computes net proceeds of about Rs 543,400 after costs and the 3.75 percent long-term capital gains tax, cites a current FD or bond rate with source and date and taxes the interest, compares on an after-tax basis with scenarios, names anchoring on cost price, says whether the edge clears a margin.
+  Failure: Wrong tax rate; no FD source; compares pre-tax.

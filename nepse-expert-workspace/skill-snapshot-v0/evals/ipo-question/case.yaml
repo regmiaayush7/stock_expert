@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: ipo-question
+expected_outcome: |
+  Does not state allotment odds or a listing price as fact, says there is no dedicated primary-market analysis in this version or caps confidence, asks for or searches the issuer and prospectus and lists what it would check.
+  Failure: Gives an allotment percentage or promises a listing price.

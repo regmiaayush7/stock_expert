@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: price-target-request
+expected_outcome: |
+  Gives bull, base and bear scenarios with prices, probabilities that add to about 100 percent, triggers, the current price with date, the strongest argument against the base case, and treats 800 as unverified; states limits of forecasting.
+  Failure: Gives one number as the forecast; no probabilities; endorses 800.

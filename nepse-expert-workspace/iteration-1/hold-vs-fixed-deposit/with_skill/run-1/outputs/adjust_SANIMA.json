@@ -1,0 +1,167 @@
+{
+  "symbol": "SANIMA",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2312,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2016-09-29",
+      "bonus_pct": 15.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2016-09-29"
+    },
+    {
+      "kind": "right",
+      "date": "2017-03-31",
+      "n": 10.0,
+      "m": 3.0,
+      "price": 100.0,
+      "ex_bar": "2017-04-03"
+    },
+    {
+      "kind": "dividend",
+      "date": "2017-09-22",
+      "bonus_pct": 16.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2017-09-24"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-09-30",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-09-30"
+    },
+    {
+      "kind": "dividend",
+      "date": "2020-11-02",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2020-11-02"
+    },
+    {
+      "kind": "dividend",
+      "date": "2021-10-24",
+      "bonus_pct": 17.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2021-10-24"
+    },
+    {
+      "kind": "dividend",
+      "date": "2022-12-05",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2022-12-05"
+    },
+    {
+      "kind": "dividend",
+      "date": "2023-10-09",
+      "bonus_pct": 9.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-10-09"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2312,
+      "agreement_pct": 100.0,
+      "max_err_pct": 2.56,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2310,
+      "agreement_pct": 100.0,
+      "max_err_pct": 2.56,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2016-09-29",
+      "raw_return_pct": -14.3,
+      "adjusted_return_pct": -1.3,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-04-03",
+      "raw_return_pct": -11.8,
+      "adjusted_return_pct": 8.9,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-09-24",
+      "raw_return_pct": -14.9,
+      "adjusted_return_pct": -1.3,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-09-30",
+      "raw_return_pct": -12.4,
+      "adjusted_return_pct": -3.6,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2020-11-02",
+      "raw_return_pct": -8.5,
+      "adjusted_return_pct": 0.6,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2021-10-24",
+      "raw_return_pct": -17.8,
+      "adjusted_return_pct": -3.8,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2022-12-05",
+      "raw_return_pct": -11.0,
+      "adjusted_return_pct": -2.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-10-09",
+      "raw_return_pct": -11.9,
+      "adjusted_return_pct": -4.0,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": 4.8,
+      "3m": 13.9,
+      "6m": 11.7,
+      "12m": 5.3
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2062,
+      "p10": -21.4,
+      "median": 8.5,
+      "p90": 35.5,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 397.0,
+      "low": 295.0,
+      "position_0_to_1": 0.96
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\hold-vs-fixed-deposit\\with_skill\\run-1\\outputs\\skillcopy\\data\\cache\\adjusted_SANIMA.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

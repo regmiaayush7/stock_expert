@@ -1,0 +1,6 @@
+NHPC exit 0
+AKJCL exit 1
+CHCL exit 0
+NABIL exit 0
+UPPER exit 0
+NICA exit 0

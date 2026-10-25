@@ -1,0 +1,76 @@
+{
+  "symbol": "AKJCL",
+  "block": "adjusted_prices",
+  "status": "unverified",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 1781,
+  "first": "2018-12-20",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "right",
+      "date": "2024-07-16",
+      "n": 1.0,
+      "m": 1.5,
+      "price": 100.0,
+      "ex_bar": "2024-07-16"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 1781,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.43,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 1779,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.5,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2024-07-16",
+      "raw_return_pct": -26.0,
+      "adjusted_return_pct": 10.0,
+      "residual_crash": true
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": -2.0,
+      "3m": 1.8,
+      "6m": -14.8,
+      "12m": 73.9
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 1531,
+      "p10": -18.1,
+      "median": 28.0,
+      "p90": 84.5,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 461.4,
+      "low": 172.9,
+      "position_0_to_1": 0.6
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\.claude\\skills\\nepse-expert\\data\\cache\\adjusted_AKJCL.json",
+  "origin": "live",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

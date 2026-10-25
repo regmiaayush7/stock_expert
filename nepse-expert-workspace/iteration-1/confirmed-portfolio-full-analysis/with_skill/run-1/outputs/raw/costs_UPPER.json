@@ -1,0 +1,48 @@
+{
+  "inputs": {
+    "kitta": 400,
+    "wacc": 250.0,
+    "price": 193.0,
+    "sell_date": "2026-10-24",
+    "buy_date": "2025-11-03",
+    "days_held": 355
+  },
+  "cgt_rate_pct": 5.0,
+  "term": "short",
+  "rate_period_from": "2026-09-22",
+  "gross_proceeds": 77200.0,
+  "commission": 254.76,
+  "sebon_fee": 11.58,
+  "dp_charge": 25.0,
+  "cost_basis": 100000.0,
+  "taxable_gain": 0.0,
+  "cgt": 0.0,
+  "tax_if_sale_costs_deductible": 0.0,
+  "net_proceeds": 76908.66,
+  "net_pl": -23091.34,
+  "net_pl_pct_of_cost": -23.09,
+  "break_even_price_net_of_costs_and_tax": 251.0,
+  "wait_comparison": {
+    "long_term_from": "2026-11-04",
+    "days_to_wait": 11,
+    "tax_saving_if_price_unchanged": 0.0,
+    "waiting_beats_selling_now_if_price_on_that_date_is_at_least": null,
+    "max_fall_pct_to_still_break_even": null,
+    "caveat": "Assumes today's long-term rate still applies then (it changed twice between July and September 2026) and ignores dividends, book closures and the return you could earn on the cash meanwhile; weigh those against the hurdle rate."
+  },
+  "rates_verified": {
+    "date": "2026-10-24",
+    "age_days": 0,
+    "stale": false,
+    "status": "Secondary sources only. The Nepal Gazette notice and the IRD, SEBON and CDSC pages could not be read (IRD site: ECONNRESET twice; no official page surfaced in search). Re-verify against an official page when one is reachable."
+  },
+  "assumptions": [
+    "WACC is the all-in cost per share from the screen",
+    "selling costs not deducted from the taxable gain (see tax_if_sale_costs_deductible)",
+    "commission at full slab rate (a ceiling)",
+    "DP charge once, on the sale",
+    "single purchase lot",
+    "price tick from rates.json (unverified)"
+  ],
+  "status": "ok"
+}

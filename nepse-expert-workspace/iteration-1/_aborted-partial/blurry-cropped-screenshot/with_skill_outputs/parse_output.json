@@ -1,0 +1,105 @@
+{
+  "source_app": "TMS",
+  "rows": [
+    {
+      "n": 1,
+      "symbol": "NABIL",
+      "kitta": 100,
+      "wacc": null,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "WACC cut off at right edge, leading digits blurry; LTP and P/L columns not in image",
+      "unreadable": [
+        "wacc"
+      ],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": true
+    },
+    {
+      "n": 2,
+      "symbol": "NICA",
+      "kitta": 200,
+      "wacc": null,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "WACC cut off at right edge, leading digits blurry; LTP and P/L columns not in image",
+      "unreadable": [
+        "wacc"
+      ],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": true
+    },
+    {
+      "n": 3,
+      "symbol": "NHPC",
+      "kitta": 1000,
+      "wacc": null,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "WACC cut off at right edge, leading digits blurry; LTP and P/L columns not in image",
+      "unreadable": [
+        "wacc"
+      ],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": true
+    },
+    {
+      "n": 4,
+      "symbol": "UPPER",
+      "kitta": 400,
+      "wacc": null,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "WACC cut off at right edge, leading digits blurry; LTP and P/L columns not in image",
+      "unreadable": [
+        "wacc"
+      ],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": true
+    },
+    {
+      "n": 5,
+      "symbol": "SHL",
+      "kitta": 50,
+      "wacc": null,
+      "ltp": null,
+      "pl": null,
+      "value": null,
+      "purchase_date": null,
+      "note": "WACC cut off at right edge, leading digits blurry; LTP and P/L columns not in image",
+      "unreadable": [
+        "wacc"
+      ],
+      "flags": [
+        "no purchase date: needed for the 365-day tax comparison, ask"
+      ],
+      "needs_user": true
+    }
+  ],
+  "totals_ready_rows": {
+    "count": 0,
+    "cost": 0,
+    "value_at_screen_ltp": 0,
+    "note": "screen prices may be stale; live prices are fetched after you confirm"
+  },
+  "symbol_list_checked": true,
+  "confirmed": false,
+  "next": "Show table_markdown to the user and wait for an explicit yes or corrections. Do not analyse before that.",
+  "table_markdown": "| # | Symbol | Kitta | WACC (Rs) | LTP on screen (Rs) | P/L on screen (Rs) | Needs you |\n|---|---|---|---|---|---|---|\n| 1 | NABIL | 100 | ? | ? | ? | unreadable: wacc; no purchase date: needed for the 365-day tax comparison, ask |\n| 2 | NICA | 200 | ? | ? | ? | unreadable: wacc; no purchase date: needed for the 365-day tax comparison, ask |\n| 3 | NHPC | 1,000 | ? | ? | ? | unreadable: wacc; no purchase date: needed for the 365-day tax comparison, ask |\n| 4 | UPPER | 400 | ? | ? | ? | unreadable: wacc; no purchase date: needed for the 365-day tax comparison, ask |\n| 5 | SHL | 50 | ? | ? | ? | unreadable: wacc; no purchase date: needed for the 365-day tax comparison, ask |"
+}

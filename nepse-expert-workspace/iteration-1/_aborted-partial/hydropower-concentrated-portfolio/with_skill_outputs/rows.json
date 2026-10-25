@@ -1,0 +1,9 @@
+{"source_app": "typed by user (no screenshot)",
+ "rows": [
+  {"symbol": "NHPC",  "kitta": 2000, "wacc": 210, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"},
+  {"symbol": "UPPER", "kitta": 1500, "wacc": 240, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"},
+  {"symbol": "CHCL",  "kitta": 500,  "wacc": 300, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"},
+  {"symbol": "AKJCL", "kitta": 1000, "wacc": 330, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"},
+  {"symbol": "NABIL", "kitta": 300,  "wacc": 520, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"},
+  {"symbol": "NICA",  "kitta": 200,  "wacc": 350, "ltp": null, "pl": null, "purchase_date": null, "note": "user: bought more than a year ago"}
+ ]}

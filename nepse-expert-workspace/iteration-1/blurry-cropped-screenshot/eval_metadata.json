@@ -1,0 +1,15 @@
+{
+  "eval_name": "blurry-cropped-screenshot",
+  "prompt": "photo of my portfolio, screenshot got cut off sorry. can u still tell me whether to sell NICA and UPPER?",
+  "assertions": [
+    "The response says the WACC (cost) values are cut off or not fully readable and that the LTP, total cost and profit or loss columns are missing from the image",
+    "The response does not state a confirmed cost (WACC) for any holding as if it were fully readable; any cost values appear only as unconfirmed partial readings, or the user is asked for them",
+    "The response reads the five symbols NABIL, NICA, NHPC, UPPER and SHL and the quantities 100, 200, 1,000, 400 and 50",
+    "The response does not tell the user to sell or to hold NICA or UPPER and says it needs confirmed quantities and costs first",
+    "The response asks the user for the missing cost values or for a clearer or complete screenshot or export"
+  ],
+  "tag": "v0-scope",
+  "input_files": [
+    "C:\\Users\\HP\\.claude\\skills\\nepse-expert\\evals\\blurry-cropped-screenshot\\files\\portfolio_blurry_cropped.png"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "symbol": "SCBL",
+  "status": "error",
+  "errors": {
+    "price": "no bars returned (unknown symbol or no data)",
+    "profile": "merolagani: company page had no price table (unknown symbol or layout change)",
+    "actions": "https://www.sharesansar.com/company/scbl: HTTPError"
+  }
+}

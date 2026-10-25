@@ -1,0 +1,154 @@
+{
+  "symbol": "NICA",
+  "block": "adjusted_prices",
+  "status": "ok",
+  "basis": "bonus and right adjusted; cash dividends not removed",
+  "bars": 2314,
+  "first": "2016-09-06",
+  "last": "2026-10-16",
+  "chained_from": [],
+  "events_applied": [
+    {
+      "kind": "dividend",
+      "date": "2016-09-21",
+      "bonus_pct": 26.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2016-09-21"
+    },
+    {
+      "kind": "right",
+      "date": "2017-03-20",
+      "n": 100.0,
+      "m": 15.0,
+      "price": 100.0,
+      "ex_bar": "2017-03-20"
+    },
+    {
+      "kind": "dividend",
+      "date": "2017-09-01",
+      "bonus_pct": 20.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2017-09-04"
+    },
+    {
+      "kind": "dividend",
+      "date": "2018-12-05",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2018-12-06"
+    },
+    {
+      "kind": "dividend",
+      "date": "2019-09-15",
+      "bonus_pct": 10.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2019-09-15"
+    },
+    {
+      "kind": "dividend",
+      "date": "2020-11-25",
+      "bonus_pct": 19.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2020-11-25"
+    },
+    {
+      "kind": "dividend",
+      "date": "2023-10-03",
+      "bonus_pct": 29.0,
+      "cash_rs": 0.0,
+      "ex_bar": "2023-10-03"
+    }
+  ],
+  "events_pending_after_last_bar": [],
+  "reconciliation": [
+    {
+      "vs": "merolagani_adjusted",
+      "bars": 2313,
+      "agreement_pct": 100.0,
+      "max_err_pct": 0.88,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    },
+    {
+      "vs": "nepsealpha_adjusted",
+      "bars": 2311,
+      "agreement_pct": 100.0,
+      "max_err_pct": 4.48,
+      "latest_disagreement": null,
+      "ex_bar_disagrees_for_events_dated": []
+    }
+  ],
+  "false_crash_check": [
+    {
+      "ex_bar": "2016-09-21",
+      "raw_return_pct": -22.6,
+      "adjusted_return_pct": -2.4,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-03-20",
+      "raw_return_pct": -5.6,
+      "adjusted_return_pct": 5.1,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2017-09-04",
+      "raw_return_pct": -21.5,
+      "adjusted_return_pct": -5.9,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2018-12-06",
+      "raw_return_pct": -12.5,
+      "adjusted_return_pct": -3.7,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2019-09-15",
+      "raw_return_pct": -12.7,
+      "adjusted_return_pct": -4.0,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2020-11-25",
+      "raw_return_pct": -9.6,
+      "adjusted_return_pct": 7.6,
+      "residual_crash": false
+    },
+    {
+      "ex_bar": "2023-10-03",
+      "raw_return_pct": -24.8,
+      "adjusted_return_pct": -2.9,
+      "residual_crash": false
+    }
+  ],
+  "summary": {
+    "returns_pct": {
+      "1m": -2.7,
+      "3m": -1.0,
+      "6m": -13.1,
+      "12m": -6.9
+    },
+    "own_history_12m_return_distribution_pct": {
+      "windows": 2064,
+      "p10": -28.7,
+      "median": -4.0,
+      "p90": 79.4,
+      "caveat": "this stock's own 250-session returns on bonus-adjusted prices, overlapping windows, one sample that includes the 2020-22 boom and fall; a rough base rate, not a tested setup base rate and not a forecast"
+    },
+    "range_250_sessions": {
+      "high": 411.0,
+      "low": 302.9,
+      "position_0_to_1": 0.167
+    },
+    "note": "v0 technical view: returns and range only; indicators arrive in v1"
+  },
+  "notes": [],
+  "adjusted_bars_file": "C:\\Users\\HP\\Desktop\\Stock_Agent\\nepse-expert-workspace\\iteration-1\\hydropower-concentrated-portfolio\\with_skill\\run-1\\outputs\\skillcopy\\data\\cache\\adjusted_NICA.json",
+  "origin": "cache",
+  "sources": [
+    "sharesansar.com company-dividend and company-rightshare",
+    "merolagani.com chart (raw, adjusted)",
+    "nepsealpha.com history"
+  ]
+}

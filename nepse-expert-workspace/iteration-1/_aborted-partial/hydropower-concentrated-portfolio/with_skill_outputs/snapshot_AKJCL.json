@@ -1,0 +1,162 @@
+{
+  "symbol": "AKJCL",
+  "status": "ok",
+  "price": {
+    "symbol": "AKJCL",
+    "block": "price",
+    "fetched_at": {
+      "utc": "2026-10-24T12:47:01+00:00",
+      "npt": "2026-10-24T18:32:01+05:45",
+      "bs": "2083-07-07"
+    },
+    "origin": "live",
+    "status": "ok",
+    "last_trade": {
+      "date": "2026-10-16",
+      "close": 346.0,
+      "cross_check": {
+        "verified": true,
+        "agree": [
+          "merolagani",
+          "nepsealpha",
+          "sharesansar"
+        ],
+        "outliers": [],
+        "values": {
+          "merolagani": {
+            "date": "2026-10-16",
+            "price": 346.0
+          },
+          "nepsealpha": {
+            "date": "2026-10-16",
+            "price": 346
+          },
+          "sharesansar": {
+            "date": "2026-10-16",
+            "price": 346.0
+          }
+        }
+      }
+    },
+    "freshness": "Market quiet or closed: last session 2026-10-16 is 8 calendar days old (holiday?).",
+    "liquidity": {
+      "sessions": 30,
+      "days_traded": 30,
+      "adv_shares": 229134,
+      "adv_turnover_npr_approx": 80223157,
+      "basis": "volume x close per session, benchmark calendar; approximate"
+    },
+    "bars_in_cache": 1781,
+    "notes": [],
+    "sources": [
+      "merolagani.com chart handler (raw and bonus-adjusted)",
+      "nepsealpha.com history (adjusted)",
+      "sharesansar.com company page"
+    ]
+  },
+  "profile": {
+    "symbol": "AKJCL",
+    "block": "profile",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T12:47:02+00:00"
+    },
+    "status": "ok",
+    "sector": "Hydro Power",
+    "listed_shares": 20000000.0,
+    "paid_up_per_share": 100.0,
+    "valuation": {
+      "eps": 3.18,
+      "eps_period": "FY:082-083, Q:4",
+      "pe": 108.81,
+      "book_value": 93.69,
+      "pbv": 3.69,
+      "market_cap": 6920000000.0
+    },
+    "hi_lo_52w_raw_page": "461.40-179.00",
+    "avg_volume_30d_page": 229088.0,
+    "gaps": [
+      "promoter vs public split not fetched in v0",
+      "quarterly detail beyond EPS/PE/BV/PBV not fetched in v0"
+    ],
+    "notes": [],
+    "sources": [
+      "merolagani.com CompanyDetail",
+      "sharesansar.com company page"
+    ]
+  },
+  "actions": {
+    "symbol": "AKJCL",
+    "block": "actions",
+    "origin": "live",
+    "fetched_at": {
+      "epoch_utc": "2026-10-24T12:47:03+00:00"
+    },
+    "status": "ok",
+    "dividends": [],
+    "rights": [
+      {
+        "ratio_value": "1:1.5",
+        "total_units": "12000000.00",
+        "issue_price": "100.00",
+        "opening_date": "2024-08-11",
+        "closing_date": "2024-09-01",
+        "final_date": "2024-07-16",
+        "listing_date": "2024-11-11",
+        "issue_manager": "Nabil Investment Banking Limited",
+        "announcement_link": "https://www.sharesansar.com/announcementdetail/ankhukhola-hydropower-company-limited-has-published-an-offer-letter-to-issue-a-115-ratio-12000000-units-right-share-to-its-shareholders-from-27th-shrawan-to-16th-bhadra-2081-2024-07-24"
+      }
+    ],
+    "agm": [
+      {
+        "agm": "17th  &amp; 18th AGM",
+        "bookclose_date": "2026-06-05",
+        "meeting_date": "2026-06-14"
+      },
+      {
+        "agm": "16th AGM",
+        "bookclose_date": "2023-12-17",
+        "meeting_date": "2024-01-05"
+      },
+      {
+        "agm": "15th AGM",
+        "bookclose_date": "2023-06-18",
+        "meeting_date": "2023-07-07"
+      },
+      {
+        "agm": "13th and 14th AGM",
+        "bookclose_date": "2022-06-10",
+        "meeting_date": "2022-06-26"
+      },
+      {
+        "agm": "11th &amp; 12th",
+        "bookclose_date": "2020-01-02",
+        "meeting_date": "2020-01-13"
+      },
+      {
+        "agm": "10th",
+        "bookclose_date": null,
+        "meeting_date": "2018-05-27"
+      },
+      {
+        "agm": "9th",
+        "bookclose_date": null,
+        "meeting_date": "2017-01-06"
+      },
+      {
+        "agm": "",
+        "bookclose_date": null,
+        "meeting_date": "2015-12-21"
+      },
+      {
+        "agm": "17th AGM",
+        "bookclose_date": "2024-10-20",
+        "meeting_date": null
+      }
+    ],
+    "notes": [
+      "single source (sharesansar.com); ex-date is inferred from the price series by adjust_prices.py, not stated here"
+    ]
+  },
+  "errors": {}
+}

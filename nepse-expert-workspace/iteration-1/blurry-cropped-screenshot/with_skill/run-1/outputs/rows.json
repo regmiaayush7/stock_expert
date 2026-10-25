@@ -1,0 +1,7 @@
+{"source_app": "TMS", "rows": [
+ {"symbol": "NABIL", "kitta": 100, "wacc": null, "ltp": null, "pl": null, "purchase_date": null},
+ {"symbol": "NICA", "kitta": 200, "wacc": null, "ltp": null, "pl": null, "purchase_date": null},
+ {"symbol": "NHPC", "kitta": 1000, "wacc": null, "ltp": null, "pl": null, "purchase_date": null},
+ {"symbol": "UPPER", "kitta": 400, "wacc": null, "ltp": null, "pl": null, "purchase_date": null},
+ {"symbol": "SHL", "kitta": 50, "wacc": null, "ltp": null, "pl": null, "purchase_date": null}
+]}
