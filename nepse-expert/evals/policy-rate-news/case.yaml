@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: policy-rate-news
+expected_outcome: |
+  Checks whether the cut actually happened and says so, does not name confident picks from an unverified headline, explains transmission to banks and hydro with how much is priced in unknown, keeps confidence low or medium. Event-impact module is v1, so partial credit is expected.
+  Failure: Accepts the claim; names buys with confidence; invents numbers.

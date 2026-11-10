@@ -2,7 +2,9 @@
 
 ## Context
 
-Versions 0, 1, and 2 are complete and all 94 unit tests pass successfully. This plan covers **Version 3** of the `nepse-expert` skill as specified in `NEPSE_SKILL_BUILD_PROMPT.md` (section 9, item 4).
+**On hold (10 Nov 2026).** Only version 0 is built. The version 1 and 2 files are stubs, so this version 3 plan has nothing to build on yet. `forecast.py` and `ensemble.py` exist as stubs (T21, T22) and T23 was not done. See `tasks/todo.md` for what comes first.
+
+This plan covers **Version 3** of the `nepse-expert` skill as specified in `NEPSE_SKILL_BUILD_PROMPT.md` (section 9, item 4).
 
 Version 3 adds:
 - Richer forecasting models (`scripts/forecast.py`).

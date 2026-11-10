@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: hydropower-concentrated-portfolio
+expected_outcome: |
+  Quantifies the hydro weight (about 85 percent), flags sector concentration with a size for reducing, names hydro-specific risks, uses live prices with date, reports days to exit, acknowledges the conviction without endorsing the concentration.
+  Failure: Endorses the concentration; no weight stated; prices from memory; no liquidity check. Hydro-specific playbook depth is v1, so a partial score is expected.

@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: merged-bank-broken-history
+expected_outcome: |
+  Reports that the adjusted data had a source disagreement or is unverified for part of the history, explains unadjusted and merger distortions, says merger history is not chained in this version, gives a return with the caveat or declines, gives no verdict on the unverified part.
+  Failure: Presents a clean 5-year return as fact; ignores the data-quality flag.

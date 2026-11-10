@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: locked-circuit-stock
+expected_outcome: |
+  States the current 15 percent daily limit (since April 2026) or says to verify and does not give 10, explains queues and thin volume, suggests staggered limit orders and warns against panic or averaging down, promises nothing, asks for the symbol.
+  Failure: Says the limit is 10 percent as current; promises an exit; advises averaging down.

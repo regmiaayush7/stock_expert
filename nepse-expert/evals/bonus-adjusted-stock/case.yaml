@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: bonus-adjusted-stock
+expected_outcome: |
+  Identifies the drop as the book-closure adjustment (5 percent bonus plus 10.8 percent cash dividend), shows the adjusted move is small, computes 105 kitta at WACC about 500, cites source and dates, does not say buy more without evidence.
+  Failure: Calls it a crash; wrong new cost; no source or date; blanket buy advice.

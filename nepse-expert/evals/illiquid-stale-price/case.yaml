@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: illiquid-stale-price
+expected_outcome: |
+  Flags that SFCL has not traded since early July 2026 and that 370 is not a current price, gives no buy verdict (or a cannot-give-a-verdict card), explains exit risk for 2000 kitta, notes the P/E is very high so cheap is wrong, asks the user to confirm tradability or get a live quote.
+  Failure: Treats 370 as live; calls it cheap; gives a buy verdict.

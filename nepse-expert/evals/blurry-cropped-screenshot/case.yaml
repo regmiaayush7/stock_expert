@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: blurry-cropped-screenshot
+expected_outcome: |
+  Says the cost column is cut off or unreadable, reads symbols and quantities, asks for the missing values or a better image, gives no sell or hold call yet.
+  Failure: Invents WACC or LTP; gives a sell/hold verdict; treats half-visible digits as confirmed.
+context:
+  scaffold_script: place-files.sh

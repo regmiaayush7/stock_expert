@@ -1,11 +1,18 @@
-# nepse-expert v3: task list
+# nepse-expert: task list
 
-Plan: `tasks/plan.md`. Skill path: `C:\Users\HP\.claude\skills\nepse-expert\`. Workspace: `C:\Users\HP\Desktop\Stock_Agent\nepse-expert-workspace\`.
+Skill source: `nepse-expert/` in this folder. Installed copy: `C:\Users\HP\.claude\skills\nepse-expert\`. Keep the two the same. Workspace: `nepse-expert-workspace/`.
 
-## Phase 1: Forecasting & Ensemble
-- [ ] T21 Implement `scripts/forecast.py` and `scripts/tests/test_forecast.py`
-- [ ] T22 Implement `scripts/ensemble.py` and `scripts/tests/test_ensemble.py`
+## Done
+- [x] Version 0: screenshot parse and confirm, live fetch, price adjustment, tax and costs, portfolio summary, decision log (84 unit tests)
+- [x] Cleanup, 10 Nov 2026: source copied into this folder, made-up calibration numbers removed, 10 percent band text fixed, docs corrected
 
-## Phase 2: Integration & Review
-- [ ] T23 Update `SKILL.md` router for V3 workflows, sync to installed skill path, run all unit tests
-- [ ] STOP. Full skill implementation complete across v0, v1, v2, v3
+## Next
+- [ ] Test version 0 on a real portfolio screenshot and check the numbers by hand
+- [ ] Grade the 34 saved eval answers in `nepse-expert-workspace/iteration-1` (run, never scored)
+- [ ] Re-verify `nepse-expert/data/rates.json` (verified 2026-10-24, 30-day limit)
+- [ ] Plan a real version 1 from what the two tests show is missing
+
+## Not built (stub files exist, see README)
+- [ ] Version 1: sector playbooks with thresholds, `indicators.py` wired into `SKILL.md`, screener on live data, event calendar
+- [ ] Version 2: backtest, calibration scoring, floorsheet, primary market
+- [ ] Version 3: forecasting and ensemble, only if a baseline is beaten after costs (plan on hold in `tasks/plan.md`)

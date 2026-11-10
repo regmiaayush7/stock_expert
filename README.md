@@ -1,62 +1,51 @@
 # NEPSE Expert Investor (`nepse-expert`)
 
-Senior disciplined investor and analyst skill for the Nepal Stock Exchange (NEPSE). Designed for Claude Code and Claude Desktop.
+Decision-support skill for the Nepal Stock Exchange (NEPSE), for Claude Code and Claude Desktop. It reads a portfolio, fetches live data and gives a verdict with scenarios. It never places trades or takes credentials.
 
-## Features
+**Status (10 Nov 2026): only version 0 is built.** The scripts and reference files added for versions 1 to 3 are stubs, and `SKILL.md` does not use them.
 
-- **Portfolio Screenshot Parser**: Reads MeroShare, TMS, and broker screenshots, echoes holdings for confirmation, and prevents hallucinated numbers.
-- **Live Data & Caching**: Pulls price, volume, financials, dividends, and corporate actions with offline fallbacks and source cross-checking (`fetch_data.py`).
-- **Corporate Action Price Adjustment**: Automatically adjusts historical prices for bonus shares, right shares, and cash dividends to prevent false crashes/breakouts (`adjust_prices.py`).
-- **Technical Indicators**: RSI, MACD, Moving Averages, ATR, OBV, and Relative Strength tuned for NEPSE's 10% daily price band (`indicators.py`).
-- **Tax & Cost Engine**: Computes capital gains tax by holding period (short vs. long term), broker commissions, SEBON fee, DP charge, and net-of-tax break-even prices (`costs.py`).
-- **Sector Playbooks & Valuation**: Deep fundamental playbooks for Commercial Banks, Hydropower, Insurance, Microfinance, and Mutual Funds, plus DCF, DDM, and PBV-ROE valuation models.
-- **Idea Screener & Backtesting**: Ranked scorecard screener (`screen.py`), rule backtester with market frictions (`backtest.py`), calibration scoring (`calibrate.py`), floorsheet/broker concentration analysis (`floorsheet.py`), primary market TERP calculator (`primary.py`), and forecasting/ensemble modules (`forecast.py`, `ensemble.py`).
+## What works (version 0)
 
-## Repository Structure
+- **Portfolio parser** (`parse_portfolio.py`): checks the rows Claude reads from a MeroShare, TMS or broker screenshot, strips identifiers, echoes the holdings for confirmation, builds the portfolio summary and writes the decision log.
+- **Live data and caching** (`fetch_data.py`): price, volume, EPS, dividends and book closure, with source cross-checks, timestamps and a cache fallback.
+- **Corporate-action price adjustment** (`adjust_prices.py`): adjusts price history for bonus and right shares, and cash dividends on request, so a book closure does not look like a crash.
+- **Tax and cost engine** (`costs.py`): capital gains tax by holding period, broker commission, SEBON fee, DP charge and the net-of-tax break-even price, from `data/rates.json`.
+
+## Not built yet (stub files)
+
+| File | What is there | What is missing |
+|---|---|---|
+| `indicators.py` | SMA, EMA, RSI, MACD, ATR, OBV and relative strength functions | A command line, input from `adjust_prices.py`, tests beyond SMA, RSI and OBV |
+| `screen.py` | Weighted sum of scores passed in by the caller | Any data fetch; a stock with no data gets an average score |
+| `backtest.py` | Cost of single trades with a hardcoded 0.3 percent commission | Price history, positions, `data/rates.json`, results |
+| `calibrate.py` | Count of logged verdicts | Hit rate and Brier score (returned as `None`) |
+| `floorsheet.py` | Largest single-broker share of volume | Floorsheet fetch, circular-trading checks |
+| `primary.py` | Theoretical ex-rights price | IPO, FPO, auction and mutual fund analysis |
+| `forecast.py`, `ensemble.py` | Naive and momentum forecasts, their mean and range | A backtest that shows they beat a naive baseline after costs |
+
+Six reference files (`fundamental-analysis-by-sector.md`, `technical-analysis.md`, `macro-and-liquidity.md`, `news-and-event-calendar.md`, `valuation-and-cost-of-capital.md`, `accounting-and-governance.md`) are short lists of metrics with no thresholds or worked examples yet.
+
+## Repository structure
 
 ```
-nepse-expert/
-  SKILL.md                      # Trigger description + workflow router
-  references/                   # Sector playbooks, tax rules, decision protocol
-    market-structure-and-rules.md
-    fundamental-analysis-by-sector.md
-    technical-analysis.md
-    quant-and-forecasting.md
-    macro-and-liquidity.md
-    news-and-event-calendar.md
-    portfolio-and-risk.md
-    tax-and-costs.md
-    behaviour-and-manipulation.md
-    data-sources.md
-    output-templates.md
-    decision-protocol.md
-    valuation-and-cost-of-capital.md
-    accounting-and-governance.md
-  scripts/                      # Python stdlib + requests modules
-    parse_portfolio.py
-    fetch_data.py
-    adjust_prices.py
-    indicators.py
-    costs.py
-    screen.py
-    backtest.py
-    calibrate.py
-    floorsheet.py
-    primary.py
-    forecast.py
-    ensemble.py
-    tests/                      # 97 unit tests
-  data/                         # symbol maps, rate tables, cache
+nepse-expert/                   # the skill
+  SKILL.md                      # version 0 rules and workflow router
+  references/                   # 5 version 0 files and the 6 stubs above
+  scripts/                      # 4 version 0 scripts and the 8 stubs above
+    tests/                      # 97 unit tests, 84 of them on version 0
+  data/                         # rates.json (tax and cost rates), symbol_map.csv
+  evals/                        # 17 eval cases and decision_log.csv
   user_profile.md               # investor risk profile and horizon
-  evals/                        # test cases and decision logs
+nepse-expert-workspace/         # version 0 snapshot and the iteration-1 eval runs (not graded yet)
+tasks/                          # plan.md and todo.md
+NEPSE_SKILL_BUILD_PROMPT.md     # the build spec
 ```
 
-## Installation & Usage
+## Installation and usage
 
-1. **Install in Claude Code / Claude Skills**:
-   Copy the `nepse-expert/` folder into your `.claude/skills/` directory (e.g. `C:\Users\YourUser\.claude\skills\nepse-expert`).
-2. **Usage**:
-   In Claude, invoke `/nepse-expert` or attach a portfolio screenshot and ask:
+1. Copy the `nepse-expert/` folder into your skills directory (for example `C:\Users\YourUser\.claude\skills\nepse-expert`). Edit the skill here, then copy it again, so the two stay the same.
+2. In Claude, invoke `/nepse-expert`, or attach a portfolio screenshot and ask:
    > *"Analyze my portfolio screenshot and tell me what to hold, add, trim or exit."*
    > *"Run a deep dive on NABIL."*
    > *"What is the tax on selling shares held for 400 days?"*
+3. Run the tests from `nepse-expert/`: `python -m unittest discover -s scripts/tests`.

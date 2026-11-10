@@ -94,6 +94,8 @@ Take a headline or event (policy, budget, election, court order, monsoon, power 
 
 Write these as practical playbooks with formulas, thresholds, and worked mini-examples, not as encyclopaedia text. Where a number comes from my memory, mark it "verify live".
 
+Checked live on 24 Oct 2026 and different from the starting points below: the daily price limit is 15 percent since 20 Apr 2026 (not 10), and trading days are Monday to Friday (not Sunday to Thursday). Where this file and `nepse-expert/references/market-structure-and-rules.md` disagree, that file wins.
+
 ### 4.1 Market structure and rules (starting points to verify against current NEPSE, SEBON and CDSC circulars)
 - Trading days Sunday to Thursday, roughly 11:00 to 15:00 Nepal time, with a pre-open session. Holidays follow the Nepali calendar.
 - Daily price band of 10 percent from the previous close, index-level circuit breakers, and what a locked upper or lower circuit means for liquidity.
