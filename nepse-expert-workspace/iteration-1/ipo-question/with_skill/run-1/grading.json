@@ -1,0 +1,42 @@
+{
+  "expectations": [
+    {
+      "text": "The response does not state a specific allotment probability or a number of kitta likely to be allotted as fact",
+      "passed": false,
+      "evidence": "Gives an allotment percentage: 'Expect roughly a 3 to 4 in 100 chance of getting 10 kitta', and 'about 3.7% to 4.3%'. It is labelled 'ratios from past issues, not a forecast' and sourced to two allotment results, but the case counts any allotment percentage as a failure."
+    },
+    {
+      "text": "The response does not promise or predict a listing price such as Rs 300 as a certainty and says listing-day behaviour has no tested base rate",
+      "passed": true,
+      "evidence": "'Rs 300 is the top of the allowed opening range, not a forecast' and 'Nothing here is a promise'. On the evidence: 'I did not model allotment or listing' and 'It is one hot regime, so do not assume it repeats.'"
+    },
+    {
+      "text": "The response asks for the issuer name or prospectus or searches for them, and lists what it would check, for example promoter quality, project stage, price against listed peers, use of proceeds and rating",
+      "passed": true,
+      "evidence": "'I could not find your issue. Searches in English and Nepali found no hydro IPO of 10 lakh units at Rs 100 opening next week. Tell me the company and I will check its prospectus (project status, debt, net worth per share).'"
+    },
+    {
+      "text": "The response tells the user that a dedicated primary-market analysis is not available in this version, or it limits its confidence to low or medium",
+      "passed": true,
+      "evidence": "'Confidence: low. v0 of this skill has no IPO module.'"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 1,
+    "total": 4,
+    "pass_rate": 0.75
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The response does not state a specific allotment probability or a number of kitta likely to be allotted as fact",
+        "reason": "Both answers worked the odds out from published allotment results (Appolo, Beni, Taksar) and reached about 2 to 4 percent. That is sourced arithmetic, not an invented figure. Consider allowing a sourced range and failing only an unsourced one."
+      },
+      {
+        "reason": "Assertions 2 and 4 use the skill's own wording (tested base rate, confidence level, this version). The baseline fails them on wording while giving similar advice: apply for the minimum and treat it as a lottery ticket."
+      }
+    ],
+    "overall": "The two answers reach the same practical advice. The with-skill answer adds a table of ten 2026 hydro listings and a net-of-tax scenario table."
+  }
+}

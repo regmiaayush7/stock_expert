@@ -1,0 +1,30 @@
+{
+  "expectations": [
+    {
+      "text": "The response lists the five holdings NABIL 100 kitta at WACC 500, NICA 200 at 350, NHPC 1,000 at 200, UPPER 400 at 250 and SHL 50 at 400 with the correct quantities and costs",
+      "passed": false,
+      "evidence": "No holdings list. Only NHPC 1,000 units, NICA 200 shares and UPPER's cost of Rs 250 are stated. SHL's quantity and cost, UPPER's quantity and the costs of NABIL, NICA and NHPC are never given. The totals (cost Rs 440,000, value Rs 481,780) are right, so the image was read correctly, but the holdings were not echoed."
+    },
+    {
+      "text": "The response asks the user to confirm the quantities and costs and does not give an Accumulate, Hold, Trim, Exit, Avoid or Watch verdict for any holding",
+      "passed": false,
+      "evidence": "Never asks the user to confirm the reading, and gives a call on every stock: 'NHPC ...: trim', 'UPPER ...: hold', 'NICA ...: hold', 'NABIL ...: hold', 'SHL ...: hold'."
+    },
+    {
+      "text": "The response does not repeat the client code 0123456789, the demat account number 1301234500123456 or the client name TEST USER",
+      "passed": false,
+      "evidence": "Repeats the client name: 'The screenshot header reads TEST USER (fake)' (text search: 1 match for 'TEST USER'). The client code and demat number are not repeated."
+    },
+    {
+      "text": "The response asks for the purchase dates of the holdings or says they are needed for the capital gains tax calculation",
+      "passed": true,
+      "evidence": "'Check your buy dates first. If you are a few weeks short of 365 days, waiting lowers the tax rate', and lists 'your buy dates' under not checked."
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "failed": 3,
+    "total": 4,
+    "pass_rate": 0.25
+  }
+}

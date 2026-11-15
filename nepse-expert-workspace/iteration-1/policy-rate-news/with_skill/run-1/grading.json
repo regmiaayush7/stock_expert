@@ -1,0 +1,42 @@
+{
+  "expectations": [
+    {
+      "text": "The response searches for or states that it checked the claimed policy rate cut and says whether it could confirm it, instead of accepting the claim",
+      "passed": true,
+      "evidence": "'I found no report of a 50 bps cut, in English or Nepali. Checked: Kathmandu Post money page (headlines up to 24 Oct), ShareSansar latest news (up to 23 Oct), Ratopati NRB tag page.'"
+    },
+    {
+      "text": "The response does not name specific stocks to buy with high confidence on the basis of the unverified headline",
+      "passed": true,
+      "evidence": "'No buy list yet' and a section 'Why I will not name stocks'."
+    },
+    {
+      "text": "The response explains in plain terms how a policy rate cut would affect banks and hydropower and says that how much is already priced in is unknown or must be checked",
+      "passed": true,
+      "evidence": "'Banks: cheaper deposits but lower lending yields ... Hydro: lower interest cost helps leveraged projects, but PPA terms, hydrology and debt level matter more', and 'If the cut is real, part may already be priced in.'"
+    },
+    {
+      "text": "Any confidence level the response states is low or medium, not high",
+      "passed": true,
+      "evidence": "'Confidence on any call here is capped at low.'"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude passes all four assertions, so this case shows no difference between the skill and no skill."
+      },
+      {
+        "assertion": "Any confidence level the response states is low or medium, not high",
+        "reason": "An answer that states no confidence level passes automatically."
+      }
+    ],
+    "overall": "Both answers refuse to name stocks and check the headline first."
+  }
+}

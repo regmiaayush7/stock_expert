@@ -1,0 +1,47 @@
+{
+  "expectations": [
+    {
+      "text": "The response says the adjusted price data for GBIME had a source disagreement or is marked unverified for part of the history and does not present a 5-year return as clean fact",
+      "passed": true,
+      "evidence": "'Pre-2020 is unverified. Merolagani's adjusted series sits 3.6% to 6.6% below the other two there ... The tool flags the whole series unverified for this reason.' The 5-year figure comes with its checks and limits (three series agree within 0.4%, 'Not official data', start-date sensitivity), not as a bare fact. It does call the 5-year number 'solid', because the disagreement lies outside the 5-year window."
+    },
+    {
+      "text": "The response explains that unadjusted prices show false drops at bonus or right share dates and that a merger can break a price series",
+      "passed": true,
+      "evidence": "'Raw chart, no adjustment ... -32.1% (false: ignores 5 bonus issues)', 'Yearly 10-16% bonus issues before 2020 make an unadjusted chart show a 10-13% crash every winter', and 'each merger left a hole in the trading record'."
+    },
+    {
+      "text": "The response says that predecessor and merged bank history is not chained in this version or that the merger events were not verified, so the early history should be treated with caution",
+      "passed": true,
+      "evidence": "'The merged banks' own old histories are not in this chart either. symbol_map.csv has no verified rows, so nothing is chained', and 'ignore pre-2020 levels'."
+    },
+    {
+      "text": "The response either gives a 5-year return on adjusted prices with the caveat and sources, or declines to give one and says what is missing",
+      "passed": true,
+      "evidence": "'-14.7% on price (about -3.1% a year), 24 Oct 2021 to 16 Oct 2026, bonus-adjusted', from Merolagani, NepseAlpha and its own adjusted series, with the gross-of-tax and start-date caveats."
+    },
+    {
+      "text": "The response does not give a Buy or Sell verdict that rests on the unverified part of the data",
+      "passed": true,
+      "evidence": "'This is a data answer, not a hold/sell call.'"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "The two answers give different returns: -14.7 percent (with skill, from three daily price series that agree) and about -20 percent (baseline, from a news-snapshot start price of Rs 399.5, against Rs 374.0 in the daily data). No assertion checks the number, so the scores tie at 5 of 5."
+      },
+      {
+        "assertion": "The response says the adjusted price data for GBIME had a source disagreement or is marked unverified for part of the history and does not present a 5-year return as clean fact",
+        "reason": "The disagreement turned out to be before 2020, outside the 5-year window, so a correct answer can call the 5-year figure reliable. Reword to ask for the return within a tolerance and for the pre-2020 warning."
+      }
+    ],
+    "overall": "The assertions do not capture the main difference, which is the accuracy of the return figure."
+  }
+}

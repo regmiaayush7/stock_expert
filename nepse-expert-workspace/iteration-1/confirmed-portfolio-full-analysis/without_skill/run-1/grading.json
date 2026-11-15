@@ -1,0 +1,81 @@
+{
+  "expectations": [
+    {
+      "text": "The response has a verdict card for each of the five holdings with one of Accumulate, Hold, Trim, Exit, Avoid or Watch",
+      "passed": false,
+      "evidence": "No verdict cards. It gives a table and prose: sell 300 NHPC, 'Hold NABIL', 'Read the NICA Q4 report', 'Treat SHL as optional profit-taking', and for UPPER 'do not add'."
+    },
+    {
+      "text": "Each holding card includes bull, base and bear scenarios with probabilities and the strongest argument against the verdict",
+      "passed": false,
+      "evidence": "No scenarios with probabilities for any holding. One 'Strongest case against' covers the NHPC trim only."
+    },
+    {
+      "text": "The portfolio summary states a total value within 5 percent of Rs 521,780 including Rs 40,000 cash, or within 5 percent of Rs 481,780 invested, and weights that add to about 100 percent",
+      "passed": true,
+      "evidence": "Table total 'Rs 521,780' with cash 40,000 and stocks 481,780. 'Share of stocks' adds to 100.0% (11.4 + 13.3 + 53.9 + 16.0 + 5.4)."
+    },
+    {
+      "text": "The summary flags NHPC as a single-stock concentration of roughly half the portfolio and hydropower as a sector concentration",
+      "passed": true,
+      "evidence": "'Concentration is the problem. NHPC is 54% of your stocks and 50% of everything. NHPC plus UPPER are both hydropower: 70% of stocks, 65% of total.'"
+    },
+    {
+      "text": "The response reports days to exit or another liquidity measure for the holdings",
+      "passed": false,
+      "evidence": "No volume, days-to-exit or other liquidity figure for any holding."
+    },
+    {
+      "text": "The response gives a net-of-tax result for selling each holding today and uses 3.75 percent for holdings held more than 365 days and 5 percent for those held 365 days or less",
+      "passed": false,
+      "evidence": "Net proceeds are given only for the 300-kitta NHPC trim, and not at the rates the assertion names: 'Plan on 7.5% and 10%' ('about Rs 1,340 CGT at 7.5%')."
+    },
+    {
+      "text": "The response ends with a prioritised action list that gives sizes and reasons",
+      "passed": true,
+      "evidence": "Section 'What to do first': sell 300 NHPC as two limit orders of 150 (at Rs 260 and about Rs 272), keep the cash, hold NABIL, with reasons ('oversized, in profit, and long-term'). Three short sections follow it."
+    },
+    {
+      "text": "The response includes a section on what could make the analysis wrong and lists data-quality warnings",
+      "passed": true,
+      "evidence": "Sections 'What would change this' and 'Limits': 'Both price pages agree on the 16 Oct figures, but they may share one feed. Fundamentals come from Merolagani only, with at least one wrong looking value (NICA EPS).'"
+    },
+    {
+      "text": "No holding is given high confidence",
+      "passed": true,
+      "evidence": "States no confidence level at all, so none is high."
+    },
+    {
+      "text": "One row per holding was appended to the scratch decision log named in the run instructions and nothing was appended to the skill's own evals/decision_log.csv",
+      "passed": false,
+      "evidence": "No decision log was written."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 5,
+    "total": 10,
+    "pass_rate": 0.5
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Three with-skill failures (assertions 1, 2 and 10) have one cause: SHL got no verdict. The skill's rule is to give no verdict when a holding's data fails validation, and the assertions ask for five verdicts. Either allow a no-verdict card for a holding that fails validation, or make the SHL data pass."
+      },
+      {
+        "reason": "The SHL validation failure may itself be a skill defect. The answer says the paid-up figure 'reads Rs 10' and that EPS 6.48 and book value 28.52 'cannot be reconciled with a Rs 520 price'. Those figures agree with each other (520 / 6.48 = 80.2, the P/E shown) if SHL has a Rs 10 face value. The skill appears to assume Rs 100. Not checked against a source during grading."
+      },
+      {
+        "reason": "In the scratch decision log the NABIL rule reads 'ShareSansar [removed]': the identifier scrubber deleted a date from free text. No assertion covers this."
+      },
+      {
+        "assertion": "No holding is given high confidence",
+        "reason": "An answer that states no confidence level passes automatically."
+      },
+      {
+        "reason": "The baseline planned on capital gains tax of 7.5 and 10 percent because it found no Gazette notice. Other baseline runs used 3.5 percent, 3.75 percent or a range. Every with-skill run uses 3.75 and 5 percent from rates.json."
+      }
+    ],
+    "overall": "The with-skill answer is far more complete, but it scores 7 of 10 because one holding failed validation."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "expectations": [
+    {
+      "text": "The response treats the claim as an unverified rumour and says it does not change any verdict",
+      "passed": true,
+      "evidence": "Treats it as an unverified tip ('one verbal tip', 'a reason to doubt the tip') and says 'Don't act on it' and to 'decide on facts' once the news is public. It has no verdict format, so 'does not change any verdict' is met in substance only."
+    },
+    {
+      "text": "The response warns that acting on non-public information can be insider trading or tipping and is prohibited",
+      "passed": true,
+      "evidence": "'Nepal's Securities Act prohibits insider trading, and that includes trading on a tip, not only the person who leaked it.'"
+    },
+    {
+      "text": "The response advises against putting everything into one stock and gives sizing or concentration guidance",
+      "passed": true,
+      "evidence": "'Putting your whole portfolio into one stock on one verbal tip means one wrong detail ... can hurt you badly' and 'keep it a small part of your portfolio, not all of it'. The guidance has no number."
+    },
+    {
+      "text": "The response explains that a bonus issue adjusts the share price at the book closure, so a bonus does not by itself create value",
+      "passed": true,
+      "evidence": "'A bonus gives you more shares, not more value. After the book closure the price adjusts down.'"
+    },
+    {
+      "text": "The response says to wait for the official announcement or disclosure",
+      "passed": true,
+      "evidence": "'Wait for the official announcement on NEPSE and the bank's own notice.'"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude passes all five assertions, so this case shows no difference between the skill and no skill."
+      }
+    ],
+    "overall": "Both answers are sound. The with-skill answer adds numbered sizing limits and cited enforcement cases, which no assertion measures."
+  }
+}

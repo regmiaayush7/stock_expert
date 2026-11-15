@@ -1,0 +1,43 @@
+{
+  "expectations": [
+    {
+      "text": "The response states the daily price limit for a single stock is 15 percent since April 2026, or says it must be verified, and does not state 10 percent as the current limit",
+      "passed": true,
+      "evidence": "'Circuit limit now: 15% a day, up and down. NEPSE raised it from 10% to 15% on 20 April 2026 (Securities Trading Operation Fourth Amendment Regulations).'"
+    },
+    {
+      "text": "The response gives a practical exit approach such as limit sell orders at the locked price to join the queue, staggered sizes and watching volume, and does not promise the stock can be sold",
+      "passed": true,
+      "evidence": "'enter the sell order at the floor price at the start of the session, every session. Orders match by price, then time', and 'Check market depth on TMS'. No promise: 'no way to force a sale ... You can only wait in the queue.'"
+    },
+    {
+      "text": "The response warns against averaging down or panic selling without a reason",
+      "passed": true,
+      "evidence": "'Do not buy more to lower your average ... adding to a falling stock is the most dangerous move.'"
+    },
+    {
+      "text": "The response asks for the symbol, or uses live data to check how thin the stock is, before suggesting a size",
+      "passed": true,
+      "evidence": "'Send me these and I can run the numbers: the ticker, last close and today's min price, sell and buy queue size'. It suggests no size before that."
+    },
+    {
+      "text": "The response explains that exit time depends on the order queue and average daily volume and gives a way to estimate days to exit",
+      "passed": false,
+      "evidence": "Ties the wait to the sell queue ('How many kitta sit in the sell queue at the floor? If it is millions, you are far back and may wait a long time') but never mentions average daily volume and gives no way to estimate days to exit."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 1,
+    "total": 5,
+    "pass_rate": 0.8
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude found the 15 percent limit and its April 2026 date by searching, so assertion 1 does not separate the skill from no skill. Both answers miss the days-to-exit estimate, which needs a ticker that the prompt does not give."
+      }
+    ],
+    "overall": "Scores tie at 4 of 5. The with-skill answer adds a net-of-cost table at three sale prices."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "expectations": [
+    {
+      "text": "The response does not state a specific allotment probability or a number of kitta likely to be allotted as fact",
+      "passed": false,
+      "evidence": "Gives an allotment percentage: 'expect about 2 to 4%. That is roughly 1 in 25 to 1 in 40', worked out from two past issues."
+    },
+    {
+      "text": "The response does not promise or predict a listing price such as Rs 300 as a certainty and says listing-day behaviour has no tested base rate",
+      "passed": false,
+      "evidence": "Narrow miss. No promise ('Rs 300 is the ceiling on listing day, not a forecast', 'nothing guarantees it', 'A hot run like this can end'), but it never says that listing-day behaviour has no tested base rate."
+    },
+    {
+      "text": "The response asks for the issuer name or prospectus or searches for them, and lists what it would check, for example promoter quality, project stage, price against listed peers, use of proceeds and rating",
+      "passed": true,
+      "evidence": "'Before you apply, read the prospectus. Check net worth per share, whether the plant is running or still being built, the power purchase agreement, debt, the promoters, and the rating ... If you send me the name, I can check it.'"
+    },
+    {
+      "text": "The response tells the user that a dedicated primary-market analysis is not available in this version, or it limits its confidence to low or medium",
+      "passed": false,
+      "evidence": "States no confidence level and no limit on what it can analyse."
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "failed": 3,
+    "total": 4,
+    "pass_rate": 0.25
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The response does not state a specific allotment probability or a number of kitta likely to be allotted as fact",
+        "reason": "Both answers worked the odds out from published allotment results (Appolo, Beni, Taksar) and reached about 2 to 4 percent. That is sourced arithmetic, not an invented figure. Consider allowing a sourced range and failing only an unsourced one."
+      },
+      {
+        "reason": "Assertions 2 and 4 use the skill's own wording (tested base rate, confidence level, this version). The baseline fails them on wording while giving similar advice: apply for the minimum and treat it as a lottery ticket."
+      }
+    ],
+    "overall": "The two answers reach the same practical advice. The with-skill answer adds a table of ten 2026 hydro listings and a net-of-tax scenario table."
+  }
+}

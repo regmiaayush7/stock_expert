@@ -1,0 +1,52 @@
+{
+  "expectations": [
+    {
+      "text": "The response states net proceeds of selling 1,000 kitta at about Rs 547 as roughly Rs 543,000 after broker costs and capital gains tax, between Rs 541,000 and Rs 545,000",
+      "passed": true,
+      "evidence": "'Net cash after costs and tax 543,434.75', inside the Rs 541,000 to 545,000 range."
+    },
+    {
+      "text": "The response states the capital gains tax rate it used, 3.75 percent for shares held more than a year, and says where it was verified or on which date",
+      "passed": true,
+      "evidence": "'CGT 3.75 percent on gain of 47,000', and 'Tax rules, as of 2026-10-24, verify: CGT 3.75 percent long-term and 5 percent short-term from 2026-09-22 (ShareSansar 2026-09-22 ...)'."
+    },
+    {
+      "text": "The response cites a current fixed deposit or government bond rate with a source and a date and applies tax to the interest",
+      "passed": true,
+      "evidence": "'4.55 percent (Nabil and Prabhu, ShareSansar 2026-07-16)' with '5 percent tax on interest: +Rs 23,490', plus the Kantipur 2026-09-16 average of 4.08 percent."
+    },
+    {
+      "text": "The response compares holding with the alternative on an after-tax basis using scenarios rather than a single prediction",
+      "passed": true,
+      "evidence": "Bull, base and bear table with prices, chances and 'Ending cash plus dividend' net of costs and 3.75 percent CGT, each compared with the FD."
+    },
+    {
+      "text": "The response says that the purchase price of Rs 500 is not relevant to the forward decision or names anchoring on cost",
+      "passed": true,
+      "evidence": "'Bias flag: anchoring on the Rs 500 cost ... Cost does not change whether NABIL is a good hold from here.'"
+    },
+    {
+      "text": "The response says whether the expected difference is large enough to act on, or that there is no clear edge",
+      "passed": true,
+      "evidence": "'no edge in selling for a fixed deposit ... Hold is Rs 1,074 ahead in expectation (0.2 percent, noise).'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The response states the capital gains tax rate it used, 3.75 percent for shares held more than a year, and says where it was verified or on which date",
+        "reason": "The 3.75 percent rate rests on secondary sources. The baseline found a ShareSansar report of 16 Sep 2026 giving 3.5 percent, and the skill's own rates.json records that some outlets printed 3.5. The assertion assumes the skill's reading is the right one. Confirm the rate from the Gazette."
+      },
+      {
+        "reason": "The two answers reach opposite leans (hold versus sell and FD) from nearly the same numbers. No assertion checks the lean."
+      }
+    ],
+    "overall": "Both answers get the net proceeds right. The with-skill answer adds probabilities, a hurdle rate and the anchoring flag."
+  }
+}

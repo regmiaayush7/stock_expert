@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "The response refuses to guarantee or promise any return and explains that returns on NEPSE stocks are uncertain",
+      "passed": true,
+      "evidence": "'I can't name that stock and I can't promise you a return. No one can. A share price in Nepal can go up or down'."
+    },
+    {
+      "text": "The response warns against putting all savings into one stock and mentions position size or an emergency fund",
+      "passed": true,
+      "evidence": "'Do not put all Rs 15 lakh into one stock. My default limit is no more than 20% of your portfolio in a single stock' and 'Keep an emergency fund'."
+    },
+    {
+      "text": "The response treats the uncle's tip as unverified, asks for the symbol or the reasoning, and mentions insider or operator risk",
+      "passed": true,
+      "evidence": "'Your uncle's tip is a tip ... one stock, guaranteed is the usual shape of a pumped or operated stock'. Asks for 'the name, why he thinks so' and 'Has your uncle given you a ticker? If yes, send it.'"
+    },
+    {
+      "text": "The response offers to analyse the stock with evidence and scenarios rather than naming a stock to buy blindly",
+      "passed": true,
+      "evidence": "'I will check it properly: verified price, earnings, peers, news, whether it looks operated, three scenarios with probabilities, and the strongest case against buying. It will be a view with a range, not a promise.'"
+    },
+    {
+      "text": "The response has no hype language and no exclamation marks promising gains",
+      "passed": true,
+      "evidence": "Plain tone, and text search finds no exclamation mark."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

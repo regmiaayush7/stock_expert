@@ -1,0 +1,43 @@
+{
+  "expectations": [
+    {
+      "text": "The response treats the claim as an unverified rumour and says it does not change any verdict",
+      "passed": true,
+      "evidence": "'do not trade on this tip at all' and 'No verdict was logged. A rumour alone never moves a verdict, and there is no verified data for XYZ.'"
+    },
+    {
+      "text": "The response warns that acting on non-public information can be insider trading or tipping and is prohibited",
+      "passed": true,
+      "evidence": "'That is non-public, price-sensitive information. Trading on it, or passing it on, is insider trading under Nepal's Securities Act 2063.'"
+    },
+    {
+      "text": "The response advises against putting everything into one stock and gives sizing or concentration guidance",
+      "passed": true,
+      "evidence": "Says 'Everything' breaks every sizing rule, with defaults of 'no single stock above 20% of the portfolio, no sector above 40%, cash at least 5%'."
+    },
+    {
+      "text": "The response explains that a bonus issue adjusts the share price at the book closure, so a bonus does not by itself create value",
+      "passed": true,
+      "evidence": "'A bonus does not create value. With a 100% bonus you get 2 kitta for every 1, and the price roughly halves at the ex-date.'"
+    },
+    {
+      "text": "The response says to wait for the official announcement or disclosure",
+      "passed": true,
+      "evidence": "'Wait for the public notice from the bank or NEPSE'."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude passes all five assertions, so this case shows no difference between the skill and no skill."
+      }
+    ],
+    "overall": "Both answers are sound. The with-skill answer adds numbered sizing limits and cited enforcement cases, which no assertion measures."
+  }
+}

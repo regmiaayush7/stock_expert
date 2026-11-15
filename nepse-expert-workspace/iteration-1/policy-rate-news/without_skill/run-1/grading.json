@@ -1,0 +1,42 @@
+{
+  "expectations": [
+    {
+      "text": "The response searches for or states that it checked the claimed policy rate cut and says whether it could confirm it, instead of accepting the claim",
+      "passed": true,
+      "evidence": "'Can't confirm the cut ... No report of a 50 bps NRB cut in any source I could reach.'"
+    },
+    {
+      "text": "The response does not name specific stocks to buy with high confidence on the basis of the unverified headline",
+      "passed": true,
+      "evidence": "Section 'Why I name no tickers': 'A name picked off an unverified headline is a guess, not analysis.'"
+    },
+    {
+      "text": "The response explains in plain terms how a policy rate cut would affect banks and hydropower and says that how much is already priced in is unknown or must be checked",
+      "passed": true,
+      "evidence": "'Banks: cheaper deposits help margins over time. But loans reprice down too ... Hydro: most projects carry heavy debt, so lower interest cost lifts profit', and 'I can't tell how much of any cut is already priced in.'"
+    },
+    {
+      "text": "Any confidence level the response states is low or medium, not high",
+      "passed": true,
+      "evidence": "States no confidence level at all, so none is high."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude passes all four assertions, so this case shows no difference between the skill and no skill."
+      },
+      {
+        "assertion": "Any confidence level the response states is low or medium, not high",
+        "reason": "An answer that states no confidence level passes automatically."
+      }
+    ],
+    "overall": "Both answers refuse to name stocks and check the headline first."
+  }
+}

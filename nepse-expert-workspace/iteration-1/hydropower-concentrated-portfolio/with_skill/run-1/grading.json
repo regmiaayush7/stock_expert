@@ -1,0 +1,48 @@
+{
+  "expectations": [
+    {
+      "text": "The response states the hydropower share of the portfolio as roughly 85 percent, between 80 and 90 percent of total value",
+      "passed": true,
+      "evidence": "'Hydro is 83.9% of the portfolio (Rs 1,323,250 of Rs 1,576,530).'"
+    },
+    {
+      "text": "The response flags hydropower concentration as a risk and recommends a limit or a reduction plan with a size in percent or rupees",
+      "passed": true,
+      "evidence": "'My default limits are 40% per sector', then a plan with sizes: sell NHPC 800 kitta and AKJCL 100 in stage 1, and in stage 2 'Bring hydro to 50% or lower (about Rs 290,000 more out of hydro).'"
+    },
+    {
+      "text": "The response names at least two hydropower-specific risks such as wet and dry season generation, spill, flood or landslide risk, power purchase agreement terms, payment delays from the electricity authority, or debt burden",
+      "passed": true,
+      "evidence": "Floods ('The 26 Aug 2026 Bhotekoshi flood in Rasuwa shut the 111 MW Rasuwagadhi plant'), curtailment and take-and-pay terms ('unused energy may not be paid for'), and debt."
+    },
+    {
+      "text": "The response uses prices that it fetched, stated with a date and source, rather than prices from memory",
+      "passed": true,
+      "evidence": "'Prices are the 2026-10-16 closes ... Each price below was verified by Merolagani, NepseAlpha and ShareSansar. Fetched 2026-10-24 22:29 NPT'."
+    },
+    {
+      "text": "The response reports days to exit or another liquidity measure for at least the largest holdings",
+      "passed": true,
+      "evidence": "'Days to exit' column for all six holdings (NHPC 0.12), and 'NHPC 2,000 kitta is 1.2% of its daily volume'."
+    },
+    {
+      "text": "The response acknowledges the user's long-term view on hydropower without endorsing the concentration",
+      "passed": true,
+      "evidence": "'Believing in hydro long term is fine. Having 83.9% of the portfolio in four hydro stocks is not a hydro view, it is one bet. Keep the belief, change the size.'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Five of six assertions pass for plain Claude, so only the liquidity measure separates the two answers. The with-skill answer also reports the flood damage to CHCL's Chilime plant, per-holding verdicts and net-of-tax figures, which no assertion measures."
+      }
+    ],
+    "overall": "Both answers give the same core advice: trim NHPC first, keep some hydro, hold more cash."
+  }
+}

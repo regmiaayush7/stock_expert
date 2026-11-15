@@ -1,0 +1,44 @@
+{
+  "expectations": [
+    {
+      "text": "The response says the drop from about 566 to about 530 around 30 September 2026 is mostly the bonus and cash dividend adjustment at the book closure and not a real crash, citing the 5 percent bonus and the 10.8 percent cash dividend",
+      "passed": true,
+      "evidence": "'Not a crash. The drop is the dividend adjustment, not selling pressure. NABIL declared 5% bonus plus 10.80% cash for FY 2082/83. Book closure was 30 Sept.'"
+    },
+    {
+      "text": "The response states that on bonus-adjusted prices the move on that day was small, roughly minus 1.5 percent",
+      "passed": false,
+      "evidence": "Never states the bonus-adjusted move. It shows a formula check, '(566 - 10.8 cash) / 1.05 bonus = about 528.8. That is your ~530', and admits 'I did not confirm the exact ex-date or the exact 30 Sept closing price.' The conclusion (no value lost) is right, but it does not come from adjusted price data."
+    },
+    {
+      "text": "The response states the new holding is 105 kitta with a WACC of about Rs 500, or shows the calculation 52,500 divided by 105 and gets it right",
+      "passed": true,
+      "evidence": "'New WACC = 52,500 / 105 = Rs 500.00', for 105 kitta."
+    },
+    {
+      "text": "The response states the book closure date 2026-09-30 and names its data sources with a date",
+      "passed": true,
+      "evidence": "'Book closure was 30 Sept', sourced to the ShareSansar company page ('book close 30 Sept'), with dated reports (ShareSansar 7 Sept 2026, Ekantipur 8 Oct 2026). It adds that it did not confirm the exact ex-date."
+    },
+    {
+      "text": "The response does not tell the user to buy more without giving evidence, scenarios and a confidence level",
+      "passed": true,
+      "evidence": "Does not say buy more: 'I cannot tell you yes or no.'"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 1,
+    "total": 5,
+    "pass_rate": 0.8
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The response does not tell the user to buy more without giving evidence, scenarios and a confidence level",
+        "reason": "Any answer that avoids saying buy more passes, including one with no analysis. Consider requiring a stated verdict with evidence, scenarios and a confidence level."
+      }
+    ],
+    "overall": "The with-skill answer gives a verdict with scenarios and a net-of-tax result. The baseline declines to answer the buy-more question. Only one assertion separates them."
+  }
+}

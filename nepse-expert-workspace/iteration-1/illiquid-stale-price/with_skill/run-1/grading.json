@@ -1,0 +1,47 @@
+{
+  "expectations": [
+    {
+      "text": "The response states that SFCL has not traded since early July 2026 while the market kept trading, and that Rs 370 is not a current price",
+      "passed": true,
+      "evidence": "'SFCL last traded on 2026-07-09 at Rs 370. It had 0 trades in the last 30 sessions. The market itself traded up to 2026-10-16, so this is a 99-day gap' and 'Rs 370 is a three-month-old price, not a market price'."
+    },
+    {
+      "text": "The response does not give an Accumulate or buy verdict, and says it cannot give a verdict until the stock is confirmed tradable or a current quote is verified",
+      "passed": true,
+      "evidence": "The SFCL card is headed 'no verdict'. 'Do not place this order', 'Price status: unverified' and 'Not logged, no price view given on SFCL.'"
+    },
+    {
+      "text": "The response explains that 2000 kitta of an illiquid stock may be impossible to sell quickly",
+      "passed": false,
+      "evidence": "Never says the position could be hard to sell. Liquidity is discussed only for buying the merged stock PFL ('Your 2,000 kitta is about 23 percent of a day's volume ... stagger the buy over 2 to 3 sessions'). The answer reports that SFCL was suspended for a merger, which makes exit risk moot, but the assertion as written is not met."
+    },
+    {
+      "text": "The response notes that the very low EPS makes the price to earnings ratio extremely high, over 1,000, so the stock is not cheap on earnings",
+      "passed": true,
+      "evidence": "'P/E at Rs 370 is about 3,083. EPS above zero does not mean cheap.'"
+    },
+    {
+      "text": "The response asks the user to confirm the stock is tradable or to check the live order book or quote before placing an order",
+      "passed": true,
+      "evidence": "'Do not place this order' and 'Check with your broker that no SFCL order is accepted.'"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 1,
+    "total": 5,
+    "pass_rate": 0.8
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "The with-skill answer reports that SFCL was suspended on 9 Jul 2026 for its merger into Pokhara Finance (news sources cited, not re-checked during grading). The baseline missed it. No assertion checks whether the answer finds out why the stock stopped trading, which is the most important fact in the case."
+      },
+      {
+        "assertion": "The response explains that 2000 kitta of an illiquid stock may be impossible to sell quickly",
+        "reason": "If the stock is suspended it cannot be bought at all, so an exit-risk warning stops being the right answer. Reword once the merger is confirmed."
+      }
+    ],
+    "overall": "The scores tie at 4 of 5, but the answers differ in substance: only the with-skill answer explains why the stock stopped trading."
+  }
+}

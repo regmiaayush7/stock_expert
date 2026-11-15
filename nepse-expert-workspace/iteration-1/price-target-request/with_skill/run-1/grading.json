@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "The response does not present one price as its forecast and instead gives bull, base and bear scenarios with prices and rough probabilities",
+      "passed": true,
+      "evidence": "'I won't give you one number as a 12-month target for NABIL', then a table: bull Rs 700 at 20%, base Rs 590 at 50%, bear Rs 460 at 30%."
+    },
+    {
+      "text": "The scenario probabilities in the response add up to about 100 percent",
+      "passed": true,
+      "evidence": "20% + 50% + 30% = 100%."
+    },
+    {
+      "text": "The response states the limits of forecasting on NEPSE or that it has no tested edge, and treats the friend's figure of 800 as an unverified claim",
+      "passed": true,
+      "evidence": "'I have no private information, no tested edge on NEPSE data'. On the 800: 'Your friend gave you a round number with no earnings or valuation behind it', and it puts the chance at 'roughly 3% (a judgment, not a model output)'."
+    },
+    {
+      "text": "The response gives the current NABIL price with a date and a source",
+      "passed": true,
+      "evidence": "'Rs 547, last session 2026-10-16, verified by Merolagani, NepseAlpha and ShareSansar. Fetched 2026-10-24 22:29 NPT'."
+    },
+    {
+      "text": "Each scenario has a trigger and the response gives the strongest argument against its base case",
+      "passed": true,
+      "evidence": "Each row of the scenario table has a trigger, and 'Strongest argument against Watch' sets out why the bull case could beat the base case."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  }
+}

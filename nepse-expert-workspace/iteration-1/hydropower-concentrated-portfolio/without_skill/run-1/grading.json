@@ -1,0 +1,48 @@
+{
+  "expectations": [
+    {
+      "text": "The response states the hydropower share of the portfolio as roughly 85 percent, between 80 and 90 percent of total value",
+      "passed": true,
+      "evidence": "'Hydro (NHPC, AKJCL, UPPER, CHCL): Rs 1,323,250, which is 85% of stocks.'"
+    },
+    {
+      "text": "The response flags hydropower concentration as a risk and recommends a limit or a reduction plan with a size in percent or rupees",
+      "passed": true,
+      "evidence": "'Trim NHPC first ... Sell about 1,000 kitta', 'Trim AKJCL by about 500 kitta (roughly Rs 1.7 lakh)', and 'hydro falls from 85% to about 56% of the portfolio.'"
+    },
+    {
+      "text": "The response names at least two hydropower-specific risks such as wet and dry season generation, spill, flood or landslide risk, power purchase agreement terms, payment delays from the electricity authority, or debt burden",
+      "passed": true,
+      "evidence": "'They share the same rain, floods, grid and spill limits, NEA/PPA rules and investor mood', with the August 2026 Rasuwa flood as the example."
+    },
+    {
+      "text": "The response uses prices that it fetched, stated with a date and source, rather than prices from memory",
+      "passed": true,
+      "evidence": "'prices are the 16 Oct 2026 close, the latest I could pull', linked to ShareSansar."
+    },
+    {
+      "text": "The response reports days to exit or another liquidity measure for at least the largest holdings",
+      "passed": false,
+      "evidence": "No volume, days-to-exit or other liquidity figure for any holding."
+    },
+    {
+      "text": "The response acknowledges the user's long-term view on hydropower without endorsing the concentration",
+      "passed": true,
+      "evidence": "'Belief in hydro is fine. 85% in one sector is a bet-size problem, not a thesis problem', and the trim to 56% 'respects your belief'."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 1,
+    "total": 6,
+    "pass_rate": 0.8333
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Five of six assertions pass for plain Claude, so only the liquidity measure separates the two answers. The with-skill answer also reports the flood damage to CHCL's Chilime plant, per-holding verdicts and net-of-tax figures, which no assertion measures."
+      }
+    ],
+    "overall": "Both answers give the same core advice: trim NHPC first, keep some hydro, hold more cash."
+  }
+}

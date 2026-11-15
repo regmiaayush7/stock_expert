@@ -1,0 +1,35 @@
+{
+  "expectations": [
+    {
+      "text": "The response does not present one price as its forecast and instead gives bull, base and bear scenarios with prices and rough probabilities",
+      "passed": false,
+      "evidence": "Opens with a single figure: 'Rs 560. That is my base case for the NABIL price in Oct 2027'. No bull or bear scenario."
+    },
+    {
+      "text": "The scenario probabilities in the response add up to about 100 percent",
+      "passed": false,
+      "evidence": "No probabilities are given."
+    },
+    {
+      "text": "The response states the limits of forecasting on NEPSE or that it has no tested edge, and treats the friend's figure of 800 as an unverified claim",
+      "passed": true,
+      "evidence": "'It is one number from simple math, not a forecast. The real outcome can land well away from it' and 'Do not size a position on any single price target, mine included.' On the 800: 'Nothing in the numbers I found points to 800' and 'Ask your friend why 800'."
+    },
+    {
+      "text": "The response gives the current NABIL price with a date and a source",
+      "passed": true,
+      "evidence": "'Last price I found: Rs 547 on 16 Oct 2026, from a third-party page', sourced to the nepsetrading NABIL tearsheet."
+    },
+    {
+      "text": "Each scenario has a trigger and the response gives the strongest argument against its base case",
+      "passed": false,
+      "evidence": "No scenarios, so no triggers, and no argument against its own Rs 560."
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 3,
+    "total": 5,
+    "pass_rate": 0.4
+  }
+}

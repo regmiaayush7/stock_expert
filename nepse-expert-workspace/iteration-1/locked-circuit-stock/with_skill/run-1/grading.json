@@ -1,0 +1,43 @@
+{
+  "expectations": [
+    {
+      "text": "The response states the daily price limit for a single stock is 15 percent since April 2026, or says it must be verified, and does not state 10 percent as the current limit",
+      "passed": true,
+      "evidence": "'15 percent a day, up or down, for a single stock. It was 10 percent until 2026-04-20', with two ShareSansar sources, and 'Many guides still print 10 percent: they are out of date.'"
+    },
+    {
+      "text": "The response gives a practical exit approach such as limit sell orders at the locked price to join the queue, staggered sizes and watching volume, and does not promise the stock can be sold",
+      "passed": true,
+      "evidence": "'Put a sell order at today's floor price, before 11:00 NPT, and leave it', 'Sell only as many kitta as you decide to sell', 'Expect partial fills'. No promise: 'You cannot sell below the floor ... Your levers are timing and queue position.'"
+    },
+    {
+      "text": "The response warns against averaging down or panic selling without a reason",
+      "passed": true,
+      "evidence": "'Do not average down to fix a WACC of 180.'"
+    },
+    {
+      "text": "The response asks for the symbol, or uses live data to check how thin the stock is, before suggesting a size",
+      "passed": true,
+      "evidence": "'Ticker not given: no verdict' and 'What I need: 1. The ticker. 2. Last traded price and today's lower-circuit price from TMS. And whether any kitta traded in the last 3 days (volume).'"
+    },
+    {
+      "text": "The response explains that exit time depends on the order queue and average daily volume and gives a way to estimate days to exit",
+      "passed": false,
+      "evidence": "Mentions queue position and partial fills and promises a 'days-to-exit check' once it has the ticker, but gives no way to estimate days to exit and does not tie exit time to average daily volume."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 1,
+    "total": 5,
+    "pass_rate": 0.8
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "Plain Claude found the 15 percent limit and its April 2026 date by searching, so assertion 1 does not separate the skill from no skill. Both answers miss the days-to-exit estimate, which needs a ticker that the prompt does not give."
+      }
+    ],
+    "overall": "Scores tie at 4 of 5. The with-skill answer adds a net-of-cost table at three sale prices."
+  }
+}

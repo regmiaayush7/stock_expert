@@ -1,0 +1,44 @@
+{
+  "expectations": [
+    {
+      "text": "The response says the drop from about 566 to about 530 around 30 September 2026 is mostly the bonus and cash dividend adjustment at the book closure and not a real crash, citing the 5 percent bonus and the 10.8 percent cash dividend",
+      "passed": true,
+      "evidence": "'Not a crash. The fall is the 5% bonus plus the Rs 10.80 cash dividend going ex on book closure day, 30 Sept 2026.'"
+    },
+    {
+      "text": "The response states that on bonus-adjusted prices the move on that day was small, roughly minus 1.5 percent",
+      "passed": true,
+      "evidence": "'Adjusted for the bonus, the move is -1.5%', with a table: bonus-adjusted 539.1 to 530.7."
+    },
+    {
+      "text": "The response states the new holding is 105 kitta with a WACC of about Rs 500, or shows the calculation 52,500 divided by 105 and gets it right",
+      "passed": true,
+      "evidence": "'105 kitta at Rs 500.00 each (Rs 52,500 / 105)'."
+    },
+    {
+      "text": "The response states the book closure date 2026-09-30 and names its data sources with a date",
+      "passed": true,
+      "evidence": "'ShareSansar lists FY 2082/83 as 5% bonus, 10.8% cash, book closure 2026-09-30', price bars from Merolagani and NepseAlpha, AGM reports dated 8 and 9 Oct, data 'fetched 2026-10-24 22:29 NPT'."
+    },
+    {
+      "text": "The response does not tell the user to buy more without giving evidence, scenarios and a confidence level",
+      "passed": true,
+      "evidence": "Does not say buy more: 'Verdict is Hold, do not add, confidence low', backed by a peer table, a bull, base and bear table with probabilities and an expected return against a hurdle."
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The response does not tell the user to buy more without giving evidence, scenarios and a confidence level",
+        "reason": "Any answer that avoids saying buy more passes, including one with no analysis. Consider requiring a stated verdict with evidence, scenarios and a confidence level."
+      }
+    ],
+    "overall": "The with-skill answer gives a verdict with scenarios and a net-of-tax result. The baseline declines to answer the buy-more question. Only one assertion separates them."
+  }
+}

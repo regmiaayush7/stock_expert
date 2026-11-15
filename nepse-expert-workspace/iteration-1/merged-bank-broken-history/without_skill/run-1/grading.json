@@ -1,0 +1,47 @@
+{
+  "expectations": [
+    {
+      "text": "The response says the adjusted price data for GBIME had a source disagreement or is marked unverified for part of the history and does not present a 5-year return as clean fact",
+      "passed": true,
+      "evidence": "Loosely met. It had no adjusted series to compare, but it flags the price data as unverified ('I could not pull a daily price file, so the start price comes from a news snapshot', 'The prices are not closes') and says 'Treat that as an estimate.'"
+    },
+    {
+      "text": "The response explains that unadjusted prices show false drops at bonus or right share dates and that a merger can break a price series",
+      "passed": true,
+      "evidence": "'One share bought in Oct 2021 is about 1.256 shares today. An unadjusted chart turns that into a fake extra loss', and for the Janata merger 'expect a trading pause and a price gap around that time'."
+    },
+    {
+      "text": "The response says that predecessor and merged bank history is not chained in this version or that the merger events were not verified, so the early history should be treated with caution",
+      "passed": true,
+      "evidence": "Loosely met. 'The merger facts and bonus percentages are solid enough, but they rest on Sharesansar reports. I did not cross-check against NEPSE or GBIME filings', and per-share figures are 'not comparable across that date'. Nothing is said about chaining."
+    },
+    {
+      "text": "The response either gives a 5-year return on adjusted prices with the caveat and sources, or declines to give one and says what is missing",
+      "passed": true,
+      "evidence": "'Bonus-adjusted price return ... about -20%' and total return 'about -10%', with sources and the caveat that the start price is estimated."
+    },
+    {
+      "text": "The response does not give a Buy or Sell verdict that rests on the unverified part of the data",
+      "passed": true,
+      "evidence": "'This is analysis, not a buy or sell call.'"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 0,
+    "total": 5,
+    "pass_rate": 1.0
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "The two answers give different returns: -14.7 percent (with skill, from three daily price series that agree) and about -20 percent (baseline, from a news-snapshot start price of Rs 399.5, against Rs 374.0 in the daily data). No assertion checks the number, so the scores tie at 5 of 5."
+      },
+      {
+        "assertion": "The response says the adjusted price data for GBIME had a source disagreement or is marked unverified for part of the history and does not present a 5-year return as clean fact",
+        "reason": "The disagreement turned out to be before 2020, outside the 5-year window, so a correct answer can call the 5-year figure reliable. Reword to ask for the return within a tolerance and for the pre-2020 warning."
+      }
+    ],
+    "overall": "The assertions do not capture the main difference, which is the accuracy of the return figure."
+  }
+}
